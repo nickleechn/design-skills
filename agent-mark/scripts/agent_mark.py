@@ -7,6 +7,7 @@ Usage:
     agent_mark.py --diff [GIT_ARGS]        review a git diff (default: HEAD)
     agent_mark.py --stdin                  review code piped in
     agent_mark.py FILE --focus "security"  steer the review
+    agent_mark.py FILE --effort xhigh      change how hard the model thinks
 
 The contributor tier trains on what you send it, so the script refuses to run
 on a non-public repo unless you pass --yes. See PRIVACY below.
@@ -28,6 +29,14 @@ MODEL = "meta/muse-spark-1.2-contributor"
 # the response comes back finish_reason=length with content="" - a silent empty
 # review. Start high and grow on retry rather than guessing low.
 DEFAULT_MAX_TOKENS = 32000
+
+# The gateway validates reasoning.effort against this set - a bad value is a
+# 400, not a silent ignore, so the flag is genuinely wired through to the model.
+# Measured caveat: 'minimal' visibly suppresses thinking, but low/high/xhigh sat
+# in the same token band on a sample workload, so treat 'high' as a sensible
+# default rather than a proven quality win over the model's own default.
+EFFORT_CHOICES = ("none", "minimal", "low", "medium", "high", "xhigh", "max")
+DEFAULT_EFFORT = "high"
 
 PRIVACY = """\
 NOTE: %s is a 'contributor' tier model. Vercel's own model listing states your
@@ -126,11 +135,13 @@ def build_prompt(label, code, focus):
     )
 
 
-def call(key, model, prompt, max_tokens, timeout):
+def call(key, model, prompt, max_tokens, timeout, effort=DEFAULT_EFFORT):
     payload = {"model": model,
                "messages": [{"role": "user", "content": prompt}],
                "temperature": 0.2,
                "max_tokens": max_tokens}
+    if effort:
+        payload["reasoning"] = {"effort": effort}
     req = urllib.request.Request(
         GATEWAY, data=json.dumps(payload).encode(), method="POST",
         headers={"Authorization": "Bearer " + key,
@@ -159,6 +170,8 @@ def main():
     parser.add_argument("--focus", help="steer the review, e.g. 'security' or 'concurrency'")
     parser.add_argument("--model", default=MODEL)
     parser.add_argument("--max-tokens", type=int, default=DEFAULT_MAX_TOKENS)
+    parser.add_argument("--effort", choices=EFFORT_CHOICES, default=DEFAULT_EFFORT,
+                        help="reasoning effort (default: %s)" % DEFAULT_EFFORT)
     parser.add_argument("--timeout", type=int, default=900)
     parser.add_argument("--json", action="store_true", help="emit the raw API response")
     parser.add_argument("-y", "--yes", action="store_true",
@@ -188,7 +201,8 @@ def main():
     key = load_key()
     budget = args.max_tokens
     for attempt in (1, 2):
-        data = call(key, args.model, build_prompt(label, code, args.focus), budget, args.timeout)
+        data = call(key, args.model, build_prompt(label, code, args.focus), budget,
+                    args.timeout, args.effort)
         if args.json:
             print(json.dumps(data, indent=2))
             return 0
@@ -199,8 +213,8 @@ def main():
         if content.strip():
             print(content)
             sys.stderr.write(
-                "\n--- %s | in %s tok, out %s tok (%s reasoning) | $%.4f ---\n"
-                % (data.get("model", args.model), usage.get("prompt_tokens"),
+                "\n--- %s | effort %s | in %s tok, out %s tok (%s reasoning) | $%.4f ---\n"
+                % (data.get("model", args.model), args.effort, usage.get("prompt_tokens"),
                    usage.get("completion_tokens"), detail.get("reasoning_tokens", "?"),
                    float(usage.get("cost", 0) or 0)))
             return 0

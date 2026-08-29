@@ -22,10 +22,11 @@ python3 ~/.claude/skills/agent-mark/scripts/agent_mark.py path/to/file.py
 python3 ~/.claude/skills/agent-mark/scripts/agent_mark.py --diff
 python3 ~/.claude/skills/agent-mark/scripts/agent_mark.py src/*.ts --focus "auth and session handling"
 git show HEAD:file.js | python3 ~/.claude/skills/agent-mark/scripts/agent_mark.py --stdin
+python3 ~/.claude/skills/agent-mark/scripts/agent_mark.py file.py --effort xhigh
 ```
 
-The review goes to stdout; the model, token counts and dollar cost go to
-stderr, so `> review.md` captures just the review.
+The review goes to stdout; the model, effort level, token counts and dollar
+cost go to stderr, so `> review.md` captures just the review.
 
 Auth comes from `$AI_GATEWAY_API_KEY`, falling back to `VERCELAIGATEWAY` in the
 apikeys store (`~/.config/apikeys/.env`). If neither exists the script says so
@@ -56,6 +57,24 @@ comes back `finish_reason: length` with **empty content** — a silent non-answe
 that looks like a bug. The script defaults to 32,000 tokens and automatically
 retries at double the budget if it still comes back empty, so you normally never
 see this. If you call the gateway by hand, budget generously.
+
+## Reasoning effort
+
+`--effort` maps to the gateway's `reasoning.effort` and defaults to `high`.
+Accepted values are `none`, `minimal`, `low`, `medium`, `high`, `xhigh`, `max`.
+The gateway validates this: a bad value comes back as a 400 naming the enum,
+not a silent ignore, so you can trust the flag reaches the model.
+
+Be honest with yourself about what the default buys, though. Measured on a
+sample workload, `minimal` clearly suppressed thinking (~1.2k reasoning tokens
+against ~2.1k for the model's own default), but `low`, `high` and `xhigh` all
+landed in the same ~2.6-3.2k band with the ordering scrambled by run-to-run
+noise. `high` is a reasonable default, not a demonstrated quality win. If you
+need to know whether it helps on your kind of code, run the same file twice at
+different levels and compare the findings - don't assume.
+
+Raising effort does not fix the accuracy problem described below. It changes
+how long the model thinks, not whether it checks its claims against the source.
 
 ## Reporting findings back to the user
 
