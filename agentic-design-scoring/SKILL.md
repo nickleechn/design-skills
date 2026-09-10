@@ -1,6 +1,6 @@
 ---
 name: agentic-design-scoring
-description: Score a design's quality out of 100 using the ADS rubric — 40% design, 30% usability (including WCAG 2.0 AA conformance), 20% creativity, 10% content. Use when the user asks to score, rate, grade, evaluate, critique, benchmark or audit a design, screen, frame, mockup, landing page or UI, mentions ADS or "design score", or asks how good a design is or whether it meets WCAG 2.0 AA.
+description: Score a design's quality out of 100 using the ADS rubric — 40% design, 30% usability (including WCAG 2.0 AA conformance), 30% creativity. Use when the user asks to score, rate, grade, evaluate, critique, benchmark or audit a design, screen, frame, mockup, landing page or UI, mentions ADS or "design score", or asks how good a design is or whether it meets WCAG 2.0 AA.
 ---
 
 # Agentic Design Scoring (ADS)
@@ -11,8 +11,9 @@ A quantified, repeatable design score out of 100. Four weighted sections:
 |---|---|---|
 | **Design** | 40 | Hierarchy, typography, colour, layout, system adherence, craft |
 | **Usability** | 30 | WCAG 2.0 AA conformance, affordance, IA, states, error handling |
-| **Creativity** | 20 | Distinctiveness, concept fit, restraint, risk that lands |
-| **Content** | 10 | Copy clarity, microcopy, voice, scannability |
+| **Creativity** | 30 | Distinctiveness, concept fit, restraint, risk that lands |
+
+**Copy is not scored.** ADS judges the design, not the words in it. Lorem ipsum, placeholder strings and draft copy are reported as *file state* so the reader knows what they are looking at, but they never move the score. The one exception is copy doing a **design** job — a button label that leaves its target unclear scores under U2 affordance, not as writing.
 
 > **The cap rule.** Accessibility is worth only 12 of the 100 points, so weighting alone cannot stop a beautiful, non-compliant design from scoring well. The cap does that instead:
 > **any unresolved WCAG 2.0 Level A or AA failure caps the total at 79. Two or more distinct Level A failures cap it at 69.**
@@ -109,9 +110,9 @@ Record these before forming any judgment. This is the raw material every later c
 - Which elements are component instances vs. detached or redrawn
 - Which states exist as variants: default, hover, focus, active, disabled, loading, empty, error, success
 
-**Content**
-- Every visible string: headings, labels, button text, helper text, error text, empty-state copy
-- Placeholder or lorem text, and any name/number that looks invented
+**Copy — for context, not for scoring**
+- Button, link and form-label strings, because an unclear label is an *affordance* problem and scores under U2
+- Placeholder or lorem text, so the report can state the file's stage. It never moves the score.
 
 ---
 
@@ -126,7 +127,7 @@ Check every one. Mark `pass`, `fail` or `N/A`, and name the offending layer on a
 | SC | Level | What to inspect |
 |---|---|---|
 | 1.1.1 Non-text Content | A | Every meaningful icon, image, chart and icon-only button has an intended text alternative or accessible name. Decorative graphics explicitly marked decorative. Icon-only buttons with no label are the usual failure. |
-| 1.3.1 Info and Relationships | A | Visual grouping, heading levels and label-to-field association are expressible in markup. Headings that are just big bold text with no hierarchy; fields whose label is only spatially adjacent. |
+| 1.3.1 Info and Relationships | A | **Grouping and label-to-field association only.** Visual grouping is expressible in markup; a field's label is associated with it, not merely adjacent. **Heading levels are out of scope — see 4.1a.** |
 | 1.3.2 Meaningful Sequence | A | Reading order matches visual order. Compare layer order and auto-layout flow against the visual reading path. Absolutely-positioned overlays and reordered columns are common breaks. |
 | 1.3.3 Sensory Characteristics | A | No instruction relies on shape, size, position or sound alone — "the green button on the right", "click the icon below". |
 | 1.4.1 Use of Color | A | Colour is never the only carrier of meaning. Links distinguished only by colour; required fields marked only red; error state signalled only by a red border; chart series separated only by hue. Each needs a second cue — underline, icon, text label, pattern. |
@@ -137,14 +138,29 @@ Check every one. Mark `pass`, `fail` or `N/A`, and name the offending layer on a
 | 2.4.3 Focus Order | A | A logical tab path exists and follows the visual order. Where visual order and layer order diverge, flag it. |
 | 2.4.4 Link Purpose (In Context) | A | Link and button text describes its destination or action. "Click here", "Read more" repeated five times, bare arrows. |
 | 2.4.5 Multiple Ways | AA | More than one route to key destinations across a set of screens — nav plus search, or nav plus sitemap/index. Only applies when multiple screens are in scope and the design represents a site rather than a single-purpose flow. |
-| 2.4.6 Headings and Labels | AA | Headings describe their section; labels describe their input. Flag decorative all-caps headings that carry no informational role. |
-| **2.4.7 Focus Visible** | **AA** | A focus indicator is actually designed, and is visually distinct from the hover state. A component set with hover but no focus variant is a fail, not an omission to note later. This is the most commonly missed criterion in Figma work. |
+| 2.4.6 Headings and Labels | AA | **Labels only.** Form labels describe their input; link and button labels describe their action. Heading wording is out of scope — see 4.1a. |
+| **2.4.7 Focus Visible** | **AA** | **Conditional — see 4.2a.** A fail only when states are part of the deliverable. On a page composition, record it as a risk against the upstream library. |
 | 3.2.3 Consistent Navigation | AA | Nav position, order and content identical across screens. Requires multiple frames. |
 | 3.2.4 Consistent Identification | AA | The same function is labelled and iconed the same way everywhere. "Delete" here, "Remove" there, a bare trash icon elsewhere. Requires multiple frames. |
 | 3.3.1 Error Identification | A | Errors described in text and the failing field named. A red border alone fails this and 1.4.1 together. |
 | 3.3.2 Labels or Instructions | A | Every input has a visible, persistent label. Placeholder-as-label is a fail — the label vanishes on input. Format requirements stated before submission, not after. |
 | 3.3.3 Error Suggestion | AA | Where the fix is knowable, it is offered: expected format, an example, a correction. "Invalid input" alone fails. |
 | 3.3.4 Error Prevention | AA | For legal, financial or data-destructive actions: a confirm, review or reverse step exists. |
+
+### 4.1a Heading structure is out of scope
+
+**Do not score heading levels, heading order, or the presence of an H1.** A Figma text style named `Heading/H5` is a naming convention, not markup: the real heading level is decided at build time, and inferring semantics from a style name is guesswork dressed as a finding. ADS scores the design; heading structure is an implementation concern.
+
+The following are **not** findings and never affect the score:
+
+- No H1 style used anywhere on the page
+- Heading levels skipped (H2 straight to H4)
+- A heading style applied to something that is not a heading — a badge, a kicker, a price
+- Heading wording and descriptiveness
+
+What *is* still in scope, because it is visual and design-owned: whether a reader can see a hierarchy at all (**D1**), and whether type sizes and weights form a coherent ramp (**D2**). Judge the ladder with your eyes, not with the style names.
+
+If heading semantics matter to the team, raise them as an implementation note alongside the report — clearly outside the score.
 
 ### 4.2 Indicative only — flag as risk, never certify
 
@@ -157,6 +173,22 @@ These cannot be *passed* from a static design. A frame can reveal a problem but 
 | 2.2.2 Pause, Stop, Hide | A | **Applies whenever moving content is shown** — a marquee, auto-advancing carousel, auto-playing logo strip or looping animation. If no pause/stop control is designed, that is a real Level A risk worth raising, not a footnote |
 | 3.1.1 Language of Page | A | Multilingual content with no indication of language handling |
 | 4.1.2 Name, Role, Value | A | Toggles, checkboxes and switches with no visual on/off distinction; custom components with no evident role |
+
+### 4.2a Focus Visible — scope it before you score it
+
+**Do not fail a page for 2.4.7.** Figma has no native focus model: a design file expresses focus only as a hand-made component variant, so a page composition almost never carries one. A criterion that fails every input discriminates nothing — it just adds noise and triggers the cap on work that has no way to satisfy it.
+
+Score it by what the artefact actually is:
+
+| Artefact under review | 2.4.7 |
+|---|---|
+| Component library, state spec, or a design system page where states **are** the deliverable | **Evaluable — a missing Focus variant is a fail** |
+| Page or screen composition built from library instances | **Risk against the upstream library**, not a failure of this page |
+| Single static mockup or screenshot | **Not assessed** |
+
+When you record the risk, name the evidence and point the fix upstream: enumerate the `State` values the referenced component sets actually expose (e.g. `State = Initial · Default · Disabled · Pressed`) and say that `Focus` is absent from the library. That is a true, actionable finding — and it belongs to whoever owns the components, not to the designer of this page.
+
+The same scoping applies to any criterion that a page composition inherits wholesale from a component library rather than authoring itself.
 
 ### 4.3 Contrast — compute, never estimate
 
@@ -281,16 +313,16 @@ Score each sub-criterion **0–5**. Points = `(score ÷ 5) × weight`. Weights s
 
 **Any single SC failure caps U1 at 2**, regardless of how polished everything else is.
 
-### 5.3 Creativity — 20 points
+### 5.3 Creativity — 30 points
 
 Judged against the **Design Read** from §2. Appropriateness, not quantity of flair.
 
 | # | Criterion | Pts | What earns and loses points |
 |---|---|---|---|
-| **C1** | Distinctiveness | 8 | Scored against the slop checklist below. Does this look like a decision, or like a default? |
-| **C2** | Concept fit | 6 | The visual idea serves this subject and this audience. Restraint that fits the archetype scores well here; restraint that is merely timid does not. Deduct when the aesthetic is borrowed from an unrelated category, or when decoration has no relationship to the content. |
-| **C3** | Signature moment and restraint | 4 | Boldness spent in one place rather than distributed evenly until nothing stands out. One memorable move, supported by quiet surroundings. Deduct when every element competes for attention, or when nothing is memorable at all. |
-| **C4** | Compositional risk that lands | 2 | A choice that could have failed and didn't — an unexpected crop, an asymmetry, a scale jump. Deduct nothing for its absence in low-variance archetypes; score 0–1 when a high-variance archetype plays it entirely safe. |
+| **C1** | Distinctiveness | 11 | Scored against the slop checklist below. Does this look like a decision, or like a default? |
+| **C2** | Concept fit | 9 | The visual idea serves this subject and this audience. Restraint that fits the archetype scores well here; restraint that is merely timid does not. Deduct when the aesthetic is borrowed from an unrelated category, or when decoration has no relationship to the content. |
+| **C3** | Signature moment and restraint | 6 | Boldness spent in one place rather than distributed evenly until nothing stands out. One memorable move, supported by quiet surroundings. Deduct when every element competes for attention, or when nothing is memorable at all. |
+| **C4** | Compositional risk that lands | 4 | A choice that could have failed and didn't — an unexpected crop, an asymmetry, a scale jump. Deduct nothing for its absence in low-variance archetypes; score 0–1 when a high-variance archetype plays it entirely safe. |
 
 **C1 slop checklist.** Count the hits, cite each one. This is countable, not a matter of taste:
 
@@ -321,29 +353,66 @@ Judged against the **Design Read** from §2. Appropriateness, not quantity of fl
 
 **The checklist dates.** These are 2025–26 tells. Revisit the list periodically; today's default is next year's deliberate retro choice, and a stale list will score good work badly.
 
-### 5.4 Content — 10 points
+**Creativity carries 30 points, so instrument it.** C1 has the slop checklist. C2, C3 and C4 need the same discipline — run each test and cite the result, or the score returns to the default of 3.
 
-| # | Criterion | Pts | What earns and loses points |
-|---|---|---|---|
-| **N1** | Copy clarity and specificity | 4 | Real content, specific to this product. Deduct heavily for lorem ipsum, for placeholder strings shipped as final, and for copy so generic it would fit any competitor unchanged. |
-| **N2** | Microcopy and labelling | 3 | Buttons name their action and object ("Create invoice", not "Submit"); error messages say what went wrong and what to do; empty states tell the user how to begin. All microcopy scores here and nowhere else. |
-| **N3** | Voice consistency | 2 | One voice across headings, body, buttons and errors. Deduct for a playful hero above clinical form errors, or capitalisation that changes between components. |
-| **N4** | Density and scannability | 1 | Sub-paragraphs kept short (roughly 25 words or fewer); no 20-row data table on a marketing page; content chunked so it can be skimmed. |
+**C2 — does the idea actually run through the design?** Identify the central visual idea in one sentence, then count the sections that carry it. An idea present only in the hero is decoration; an idea that shapes the type, the imagery and the section rhythm is a concept.
 
-### 5.5 Double-counting guard
+| Sections carrying the idea | C2 ceiling |
+|---|---|
+| Hero only | 2 |
+| 2 sections | 3 |
+| 3–4 sections | 4 |
+| Throughout, including the quiet ones | 5 |
+
+**C3 — is the loudest thing the most important thing?** Find the single most emphasised element by scale, contrast and saturation together. Name it, then name the page's primary job. If they are the same thing, the boldness is spent well. If the loudest element is decorative, or if nothing is measurably louder than anything else, C3 cannot exceed 2. A design with three competing focal points has no signature moment; it has an argument.
+
+**C4 — name the convention that was broken.** State the specific expectation the design departs from, and what it would have looked like had it failed. A departure you cannot name is not a risk, it is an accident, and it scores 3 at most. This criterion exists to reward judgment under uncertainty, so an argument is the evidence — a rating is not.
+
+**Where the archetype expects restraint** (dashboard, public-sector service, regulated product page), C4 is scored on whether restraint was *chosen* — visible in the consistency of the decision — rather than on whether a risk was taken. Do not force a low-variance design to invent one.
+
+### 5.4 Double-counting guard
 
 The same defect must not be charged twice. Where an issue could land in two places:
 
 | Issue | Scores in | Not in |
 |---|---|---|
-| Microcopy quality | **N2** | Creativity, Usability |
 | Target size (44×44pt) | **U2** | The WCAG checklist — it is not in 2.0 |
 | Navigation consistency | **U3** (compliance itself in U1) | Both |
 | Slop-checklist hits | **C1** | Design |
 | Contrast failures | **U1** | D3 — colour choice may still be judged on its own merits |
 | Missing dark mode | **D3** | Usability |
+| An unclear button label | **U2**, as affordance | Nowhere else — copy quality is not scored |
+| Heading levels, H1, heading wording | **nowhere** | Out of scope entirely (§4.1a) |
+| Lorem ipsum, placeholder copy, tone | **nowhere** | Reported as file state only |
 
 A single artefact can legitimately fail an SC in U1 *and* count as a slop hit in C1 — those are different claims about the same object. Charging the same claim twice is not.
+
+### 5.5 The UX-laws lens
+
+These laws **add no weight**. They are diagnostic prompts that make existing criteria concrete — each one turns a judgment ("the layout feels cluttered") into a test you can cite. Apply the law, then score the criterion it informs.
+
+| Law | Informs | The concrete test | What a failure looks like |
+|---|---|---|---|
+| **Hick's Law** — decision time grows with the number and complexity of choices | U2 | Count the choices presented *simultaneously* at each decision point | 4 product columns × 3 expandable groups shown at once; a nav with 9 top-level items; two CTAs of equal weight |
+| **Fitts's Law** — acquisition time depends on target size and distance | U2 | Measure target bounds, and the distance from where the pointer or thumb already is | A 24pt-tall button; a primary action placed far from the content that motivates it; a mobile CTA outside thumb reach |
+| **Miller's Law** — working memory holds ~4 chunks, not 7 | U3 | Count items per group before a break | An 11-item list with no grouping; a comparison table with 8 undifferentiated rows |
+| **Jakob's Law** — people expect your site to work like the others they know | C1, C2, U3 | Ask whether a departure from convention buys anything | A custom pattern where a standard one would do — **and equally**, penalising a conventional pattern that is doing its job |
+| **Law of Proximity** | D1, D4 | Compare intra-group gap with inter-group gap, from real auto-layout values | Label 16px from its field but 12px from the *next* field — the visual grouping contradicts the semantic one |
+| **Law of Common Region** | D1, D4 | Check that borders, fills and cards enclose things that actually belong together | A card wrapping two unrelated items; related items split across two containers |
+| **Law of Similarity** | D1, U2 | Check that things which look alike behave alike | A non-interactive chip styled like a button |
+| **Von Restorff (isolation)** | D1, C3 | Identify what is visually distinct, and confirm it is what matters most | Everything emphasised, so nothing is; or the loudest element is decorative |
+| **Serial Position** | U3 | Look at what sits first and last in navs and lists | The most important destination buried mid-list |
+| **Tesler's Law** — complexity is conserved | U5, U2 | Ask who absorbs the complexity the design removed | A simplified form that pushes the work onto a support call |
+| **Peak-End Rule** | U3 | Identify the journey's hardest moment and its final one | A polished hero and a bare, graceless confirmation |
+| **Aesthetic-Usability Effect** | *the scorer* | See below | — |
+
+**Applicability — do not cargo-cult.** State which laws apply before using them. Goal-Gradient and Zeigarnik need a multi-step flow; a static marketing page has none. Doherty Threshold (<400ms) is a runtime property and is **not assessable from a design** — advisory only. A law that does not apply is not a finding, and padding a report with inapplicable laws is the same failure as padding the WCAG table with N/As.
+
+**These are heuristics, not compliance.** Never report a "Hick's Law violation" in the same register as a success-criterion failure. Laws inform a 0–5 score and are cited as reasoning; only WCAG criteria produce pass/fail verdicts and only they trigger the cap.
+
+**Aesthetic-Usability Effect applies to you.** People — and models trained on their judgments — rate attractive interfaces as more usable than they are, and rate them more usable than testing shows. That bias is precisely why ADS caps the total on accessibility failures instead of trusting the weighted score, and why Usability is scored from a binary checklist before any aesthetic impression is formed. When a beautiful design scores well on Usability, check that the checklist actually earned it.
+
+**Laws do not override the brief.** Hick's Law does not mean fewer options is always better — an insurance comparison page exists to present options. The test is whether the choices are *structured*, not whether they are *few*.
 
 ---
 
@@ -410,11 +479,10 @@ Visually the strongest work in this file; it is also the least accessible.
 
 | Section | Weight | Earned |
 |---|---|---|
-| Design | 40 | 29 |
-| Usability | 30 | 14 |
+| Design | 45 | 33 |
+| Usability | 35 | 17 |
 | Creativity | 20 | 13 |
-| Content | 10 | 6 |
-| **Raw** | **100** | **62** |
+| **Raw** | **100** | **63** |
 
 **5. Per-criterion table** — id, score /5, points, and one line of cited evidence each.
 
@@ -475,10 +543,10 @@ When enabled, report them as a separate list with their own count. They still do
 
 **Order of operations**
 1. Pick the target (selection → page) and state input confidence
-2. Print the Design Read
+2. Print the Design Read, and say what kind of artefact this is — page composition, component library, or static mockup. That choice scopes 2.4.7 (§4.2a)
 3. Gather evidence
 4. Run the WCAG 2.0 AA checklist — **binary before scalar**
-5. Score the 19 sub-criteria, default 3, citations required above 3
+5. Score the 15 sub-criteria, default 3, citations required above 3; use the UX-laws lens (§5.5) to turn judgments into cited tests
 6. Sum → apply cap → band
 7. Report; then *ask* before writing back to Figma
 
@@ -487,8 +555,9 @@ When enabled, report them as a separate list with their own count. They still do
 ```
 Design 40   D1 9 · D2 8 · D3 8 · D4 8 · D5 4 · D6 3
 Usability 30   U1 12 · U2 6 · U3 5 · U4 4 · U5 3
-Creativity 20   C1 8 · C2 6 · C3 4 · C4 2
-Content 10   N1 4 · N2 3 · N3 2 · N4 1
+Creativity 30   C1 11 · C2 9 · C3 6 · C4 4
+
+Not scored: copy quality, tone, heading structure.
 ```
 
 **The numbers that matter most**
@@ -507,7 +576,14 @@ Content 10   N1 4 · N2 3 · N3 2 · N4 1
 | Type styles per screen | More than 4 is a flag |
 | Expected total, competent work | 62–74 |
 
-**Three things that are easy to get wrong**
+**Four things that are easy to get wrong**
 - 4.1.3, 1.4.11, 1.4.10, 1.4.12 and target size are **WCAG 2.1/2.2**, not 2.0 AA. Keep them in the advisory.
 - Disabled text is **exempt** from 1.4.3; placeholder text is **not**.
 - 2.1.1, 2.1.2, 3.1.1 and 4.1.2 can be flagged as risks from a design but **cannot be certified as passes**.
+- **Never fail a page composition for 2.4.7** (§4.2a). Figma has no native focus model, so a missing focus state is a finding against the component library, not against the page. Raise it as a risk and point the fix upstream.
+
+**Heading structure is out of scope** (§4.1a) — no H1, skipped levels and heading wording are not findings. Judge the visible ladder under D1 and D2 instead.
+
+**Copy is not scored.** Lorem ipsum and placeholder strings are reported as file state, never as points off.
+
+**Inferred semantics:** from a file's own text-style names (`Heading/H5` applied to a badge), say that you inferred them. It is strong evidence — implementation usually follows the design's naming — but it is not the same as reading markup, and the report should not pretend otherwise.
