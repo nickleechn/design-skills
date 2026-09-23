@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1536" role="img" aria-labelledby="title description">
+  <title id="title">GIO Marshmallow Telstra Tower, Canberra</title>
+  <description id="description">A simplified rounded Telstra Tower on Black Mountain using solid GIO Marshmallow colours for easy recreation in Figma.</description>
+
+  <rect width="1024" height="1536" fill="#DFEBF8"/>
+
+  <!-- Black Mountain: one solid lozenge-like hill. -->
+  <path fill="#0955EB" d="M90 1364 C130 1256 301 1194 512 1194 C723 1194 894 1256 934 1364 Q938 1380 920 1380 H104 Q86 1380 90 1364 Z"/>
+
+  <!-- Softly tapered tower shaft. -->
+  <path fill="#FFFFFF" d="M430 1218 L468 650 Q512 628 556 650 L594 1218 Q512 1194 430 1218 Z"/>
+
+  <!-- Rounded observation deck. -->
+  <rect x="340" y="520" width="344" height="178" rx="89" fill="#0955EB"/>
+  <rect x="340" y="603" width="344" height="22" rx="11" fill="#75B0FD"/>
+
+  <!-- Upper tower collar and mast. -->
+  <rect x="470" y="348" width="84" height="196" rx="42" fill="#FFFFFF"/>
+  <path fill="#75B0FD" d="M470 390 Q470 348 512 348 Q554 348 554 390 V438 H470 Z"/>
+  <rect x="499" y="126" width="26" height="240" rx="13" fill="#FFFFFF"/>
+  <rect x="499" y="178" width="26" height="46" rx="7" fill="#F74816"/>
+
+  <!-- Two deliberately simple communication dishes. -->
+  <rect x="412" y="469" width="38" height="18" rx="9" fill="#75B0FD"/>
+  <ellipse cx="400" cy="478" rx="31" ry="43" fill="#FFFFFF"/>
+  <rect x="574" y="469" width="38" height="18" rx="9" fill="#75B0FD"/>
+  <ellipse cx="624" cy="478" rx="31" ry="43" fill="#FFFFFF"/>
+</svg>
