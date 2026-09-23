@@ -1,145 +1,186 @@
-# GIO Illustration Style
+# GIO Marshmallow Illustration Style
 
-A reusable guide for producing clean, friendly GIO illustrations with enough detail to feel considered while remaining simple and immediately readable.
+A reusable guide for creating soft, friendly GIO illustrations from simple rounded forms, bright colour and generous breathing room.
 
 ## Visual references
 
-### Coffee shop
-
-![Front-facing GIO-style coffee shop storefront](gio-illustrations/assets/gio-coffee-shop-storefront.png)
-
 ### Armchair and standing lamp
 
-![GIO-style armchair with standing lamp](gio-illustrations/assets/gio-armchair-standing-lamp.png)
+![GIO Marshmallow armchair with standing lamp](gio-illustrations/assets/gio-armchair-standing-lamp.png)
 
-## Style summary
+### Coffee shop
 
-Create crisp flat-vector illustrations from rounded geometric shapes, using GIO blue as the dominant colour, pale blue for secondary surfaces, white for breathing room and a restrained GIO red accent. Subjects should be complete, comfortably padded and easy to recognise, with a little practical detail but no texture or visual clutter.
+![GIO Marshmallow coffee shop storefront](gio-illustrations/assets/gio-coffee-shop-storefront.png)
 
-## Visual system
+### Sydney Opera House
 
-### Shape and finish
+![GIO Marshmallow Sydney Opera House](gio-illustrations/assets/gio-sydney-opera-house.png)
 
-- Use clean, solid, opaque vector-like fills with crisp edges.
-- Build objects from simple rounded geometry and gently softened corners.
-- Add enough definition to explain construction: seams, panels, window frames, handles, shelves and a few recognisable accessories.
-- Keep the result slightly more detailed than an icon, but much simpler than an editorial scene.
-- Avoid outlines where overlapping colour blocks can define the form.
-- Do not use grain, noise, speckling, paper texture, a sandpaper effect, a grey wash or distressed edges.
-- Do not use photorealism, 3D materials, bevels, glossy highlights or realistic shadows.
+## Style in one sentence
 
-### Composition
+GIO Marshmallow uses a few large, softly inflated geometric shapes, bright cobalt and sky blue, a tiny warm orange-red accent and a fresh pale blue-white background to create illustrations that feel simple, rounded, optimistic and immediately recognisable.
 
-- Show the entire subject. Nothing important may touch or cross the canvas edge.
-- Keep generous clear space around the artwork, with at least 10–15% padding on every side.
-- Use a clean white background by default.
-- Keep the visual weight centred and balanced.
-- Use a straight-on front view for buildings, rooms and storefronts unless another view is explicitly requested.
-- Use a simple front or gentle three-quarter view for freestanding objects.
+## Core principles
+
+### Marshmallow shape language
+
+- Construct the subject from a small number of large, soft forms.
+- Favour pills, capsules, rounded rectangles, broad arches, plump cushions and smooth lozenges.
+- Make corners generously rounded and transitions gentle.
+- Avoid needle points, hard triangular wedges, sharp corners and brittle technical geometry.
+- An identifying tip or peak may taper, but soften its surrounding curve so it never feels spiky.
+- Keep forms slightly inflated and friendly without turning them into glossy 3D objects.
+
+### Simplicity and detail
+
+- Use one clear hero silhouette and only two to five supporting shapes.
+- Add no more than two to four identity details.
+- Use larger details rather than many tiny ones.
+- For architecture, suggest windows and entrances with broad panels; never draw a grid of individual panes.
+- Remove seams, lines or accessories that do not materially improve recognition.
+- The result should feel more developed than an icon but much simpler than a literal architectural rendering.
+
+### Finish
+
+- Use clean, opaque vector-like shapes with crisp outer edges.
+- A shape may use one restrained, smooth two-tone gradient within the approved blue range to add soft volume.
+- Keep gradients broad, subtle and clean—never cinematic, glossy, grey, dark or banded.
+- Do not use grain, noise, speckling, paper texture, a sandpaper effect, grey wash, haze or distressed edges.
+- Avoid outlines where overlapping colour shapes can define the form.
+
+## Composition
+
+- Show the complete subject with at least 12–15% clear space on every side.
+- Nothing important may touch or cross the canvas edge.
+- Let the subject occupy roughly 55–65% of the canvas.
+- Keep the visual weight calm, open and balanced.
+- Use a straight-on front view for buildings and storefronts.
+- Use a front or very gentle three-quarter view for individual objects.
 - Do not use isometric perspective unless explicitly requested.
-- Start every new brief as a fresh composition; do not carry over objects from a previous illustration.
+- Start every brief as a fresh composition; never carry over objects from a previous illustration.
 
-### Colour palette
+## Approved colour palette
+
+These colours were sampled from the approved GIO Marshmallow armchair reference.
 
 | Role | Colour | Hex |
 | --- | --- | --- |
-| Dominant structure | GIO blue | `#005296` |
-| Dark definition | Deep GIO blue | `#014A73` |
-| Mid-tone variation | Sky blue | `#B1C6DF` |
-| Secondary surfaces | Pale blue | `#D6E5EF` |
-| Light surfaces | Light blue | `#F0F5F9` |
-| Background and highlights | White | `#FFFFFF` |
-| Small accent only | GIO red | `#E3001B` |
+| Dominant structure | Cobalt blue | `#0955EB` |
+| Cobalt gradient lift | Bright cobalt | `#2A6FF0` |
+| Secondary surfaces | Sky blue | `#75B0FD` |
+| Soft secondary plane | Soft blue | `#A8CDFC` |
+| Main background | Pale blue-white | `#DFEBF8` |
+| Background lift | Airy blue-white | `#EAF2FA` |
+| Highlights | White | `#FFFFFF` |
+| Small accent only | Warm orange-red | `#F74816` |
 
-Use blue, pale blue and white for most of the image. Red should be a small point of emphasis rather than a large colour field. Avoid unrelated greens, browns, yellows, purples and greys.
+Use cobalt for the main mass, sky blue for secondary forms, white for highlights and warm orange-red for only 2–5% of the image. The background should remain light and fresh from edge to edge.
+
+Do not substitute the older corporate navy `#005296`, deep blue `#014A73` or dark red `#E3001B`. Avoid unrelated greens, browns, yellows, purples, black and neutral greys.
 
 ## Subject guidance
 
-### Objects and interiors
+### Objects and furniture
 
-- Preserve a strong, recognisable primary silhouette.
-- Add three to six useful identity details rather than decorative micro-detail.
-- Let adjacent blue values and overlap create depth.
-- Keep furniture soft and welcoming through rounded cushions and broad, simple forms.
-- Use only a subtle flat grounding shape when the object needs visual weight.
+- Build the object from broad rounded masses with a strong silhouette.
+- Use one or two large seams or insets only when needed for recognition.
+- Make cushions, handles, shades and bases feel soft and comfortably proportioned.
+- Use a single pill-shaped grounding form when the subject needs weight.
 
 ### Architecture and storefronts
 
-- Use a front-facing elevation with clean verticals and horizontals.
-- Show the complete facade, roofline or awning, entrance and base.
-- Add a small number of readable interior cues through the windows.
-- Use signage as a simple pictogram or abstract brand-free symbol.
-- Do not generate words, logos, addresses or pseudo-lettering.
+- Use a simplified front elevation.
+- Preserve the recognisable roofline or facade as one soft hero silhouette.
+- Represent glazing, doors and signs as a few large rounded panels.
+- Use a simple pictogram instead of words or generated branding.
+- Do not include window grids, masonry lines, railings or architectural micro-detail.
 
 ### People
 
-- Use simplified, elongated proportions and an expressive pose.
-- Include minimal friendly facial features when a face is visible: small eyes, a simple nose or mouth and uncomplicated hair shapes.
-- Keep features subtle so the figure remains part of the same flat visual system.
-- Use clean colour blocks for clothing and anatomy, with no realistic skin texture or shading.
-- Vary pose and posture between illustrations rather than reusing the same figure.
+- Use simplified elongated proportions with soft joints and an expressive pose.
+- Include minimal friendly facial features when visible: small eyes and a simple mouth or nose.
+- Keep hair and clothing as large rounded colour blocks.
+- Vary posture between illustrations; do not reuse the same figure.
 
 ## Master prompt
 
 ```text
-Create one original GIO-style flat-vector illustration of [SUBJECT].
+Create one original GIO Marshmallow illustration of [SUBJECT].
 
-Use clean solid geometric shapes, softly rounded corners and crisp edges. Use GIO blue
-#005296 as the dominant colour, deep blue #014A73 for definition, pale blues #B1C6DF,
-#D6E5EF and #F0F5F9 for secondary surfaces, pure white #FFFFFF for the background and
-highlights, and GIO red #E3001B only as a small accent. Add a modest amount of useful
-detail so the subject feels considered and recognisable without becoming busy.
+Build the subject from a small number of large, softly inflated geometric shapes. Favour
+pills, capsules, rounded rectangles, broad arches and smooth lozenges. Use one clear hero
+silhouette, only two to five supporting forms and no more than two to four large identity
+details. Make corners generously rounded and soften any necessary peak or tip. The result
+should feel simple, friendly and modern—not sharp, technical or architecturally literal.
 
-Show the complete subject with generous 10–15% clear space on every side. Keep the
-composition centred and balanced. Use a straight-on front view for architecture and a
-front or gentle three-quarter view for individual objects. Use a clean white background.
+Use cobalt blue #0955EB as the dominant colour, bright cobalt #2A6FF0 as a gentle tonal
+lift, sky blue #75B0FD and soft blue #A8CDFC for secondary shapes, white #FFFFFF for
+highlights, and warm orange-red #F74816 for only one small accent. Use a fresh pale
+blue-white #DFEBF8 background with a restrained #EAF2FA centre lift. Smooth gradients
+may be used only within those approved colour pairs and must remain broad and subtle.
 
-No text, logos or pseudo-lettering. No cropping, isometric view, photorealism, 3D,
-gradients, glossy lighting, bevels, realistic shadows, noise, grain, speckles, paper
-texture, sandpaper effect, grey wash, haze or distressed edges. Do not reuse objects or
-motifs from earlier illustration requests unless they are explicitly requested.
+Show the complete subject with 12–15% clear space on every side. Let it occupy roughly
+55–65% of the canvas. Keep the composition calm and balanced. Use a straight-on front
+view for architecture and a front or very gentle three-quarter view for objects.
+
+No text, logos or pseudo-lettering. No cropping, edge collisions, isometric view,
+photorealism, hard 3D, sharp spikes, acute corners, tiny architectural detail, window
+grids, glossy lighting, bevels, realistic shadows, dark vignette, harsh gradients, noise,
+grain, speckles, paper texture, sandpaper effect, grey wash, haze or distressed edges.
+Do not reuse objects or motifs from earlier requests unless explicitly requested.
 ```
 
 ## Example subject briefs
 
-### Coffee shop
-
-```text
-A complete front-facing neighbourhood coffee-shop storefront. Include a blue structural
-frame, striped awning, large pale-blue display windows and a centred entrance. Through
-the windows, show only a few simplified cues: an espresso machine, stacked cups and a
-small bistro table with chairs. Use a simple cup-and-steam pictogram as the sign. Keep the
-whole facade fully inside the frame with comfortable white space around it.
-```
-
 ### Armchair and standing lamp
 
 ```text
-A welcoming upholstered armchair beside a slender standing lamp. Use broad rounded
-cushions, visible arms, short feet, one small scatter cushion and a simple curved lamp
-shade. Add restrained seam details and overlapping blue shapes for depth. Keep both
-objects complete and fully inside the frame on a pure white background.
+A welcoming armchair beside a standing lamp. Build the chair from four broad rounded
+forms: an arched back, two pill-shaped arms and one plump seat cushion. Give the lamp a
+soft bell-shaped shade, one rounded stem and an oval base. Add one small orange-red pull
+cord. Keep both objects complete and comfortably spaced.
+```
+
+### Coffee shop
+
+```text
+A complete front-facing neighbourhood coffee shop. Simplify the facade into one rounded
+blue frame, one broad striped awning, two large pale-blue window panels and one soft-edged
+door. Add only a cup-and-steam pictogram, a simplified coffee machine shape and one small
+bistro-table shape. No lettering, window grids or architectural micro-detail.
+```
+
+### Sydney Opera House
+
+```text
+The complete Sydney Opera House as a soft front-facing harbour elevation. Reduce the
+landmark to five broad, rounded sail-shell forms with gently softened tips, one low
+rounded cobalt podium and one simple sky-blue water lozenge. Keep the sail groups plump,
+smooth and clearly recognisable, using white, sky blue and soft blue. Suggest glazing with
+only two or three broad cobalt panels—no window grid or fine lines. Add one tiny warm
+orange-red doorway accent. Keep the full landmark and water shape comfortably inside the
+frame. No skyline, Harbour Bridge, people, boats, sun, moon or clouds.
 ```
 
 ## Negative prompt
 
 ```text
-cropped subject, cut-off object, edge collision, isometric scene, side-view building,
-photorealism, 3D render, gradients, bevels, glossy materials, realistic lighting,
-heavy shadows, blur, noise, grain, speckling, stippling, paper texture, sandpaper effect,
-grey wash, haze, faded colour, distressed edges, clutter, excessive detail, thin line art,
-unrelated props from earlier scenes, text, letters, numbers, logo, watermark
+cropped subject, cut-off object, edge collision, sharp spikes, acute angles, hard wedges,
+thin technical lines, window grid, individual panes, railings, architectural micro-detail,
+literal architectural rendering, isometric scene, side-view building, photorealism,
+hard 3D, bevels, glossy plastic, dramatic lighting, realistic shadows, black background,
+dark vignette, harsh gradients, banding, legacy corporate navy, dark red, grey wash, haze,
+noise, grain, speckling, paper texture, sandpaper effect, clutter, text, logo, watermark
 ```
 
 ## Quality checklist
 
+- [ ] The subject is recognisable from its broad silhouette.
+- [ ] The design uses only a few large, rounded forms.
+- [ ] Sharp points and technical detail have been softened or removed.
 - [ ] The entire subject is visible with generous padding.
-- [ ] The chosen view is appropriate and architecture is front-facing.
-- [ ] GIO blue is dominant and red is only a small accent.
-- [ ] The background is clean white unless another background was requested.
-- [ ] Details improve recognition without creating clutter.
-- [ ] People, when used, have subtle facial features and a distinct pose.
-- [ ] Fills are crisp, solid and free of texture, noise or grey wash.
-- [ ] There is no accidental text, logo, watermark or pseudo-lettering.
-- [ ] No visual elements have leaked in from a previous request.
-
+- [ ] Cobalt `#0955EB` is dominant and orange-red `#F74816` is only a small accent.
+- [ ] The background is pale blue-white and stays light at every edge.
+- [ ] Any gradient is broad, smooth and restricted to an approved colour pair.
+- [ ] There is no noise, texture, grey wash, window grid or micro-detail.
+- [ ] There is no accidental text, logo, watermark or reused object.
