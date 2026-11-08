@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1448" height="1086" viewBox="0 0 1448 1086" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">GIO control panel — two floating sliders</title>
+  <desc id="description">A front-facing phone with two level, borderless slider panels floating in front. Native editable rectangles and circles use six solid GIO colours, with no strokes, gradients, shadows, filters or embedded raster images. Background, phone, panels, tracks and thumbs are named separately. Remove the Background group for transparency. No animation is applied.</desc>
+
+  <g id="background" inkscape:groupmode="layer" inkscape:label="Background — removable">
+    <rect id="background-fill" width="1448" height="1086" fill="#DFEBF8"/>
+  </g>
+
+  <g id="phone" inkscape:groupmode="layer" inkscape:label="Phone — front view">
+    <rect id="phone-frame" x="304" y="127" width="405" height="832" rx="49" fill="#0955EB"/>
+    <rect id="phone-screen" x="332.5" y="153" width="351" height="777" rx="25" fill="#FFFFFF"/>
+    <g id="phone-screen-details" inkscape:label="Phone — speaker and content">
+      <rect id="phone-speaker" x="464" y="172" width="88" height="20" rx="10" fill="#0955EB"/>
+      <rect id="phone-content-line-1" x="370" y="229" width="233" height="26" rx="13" fill="#A8CDFC"/>
+      <rect id="phone-content-line-2" x="370" y="270" width="155" height="26" rx="13" fill="#A8CDFC"/>
+    </g>
+  </g>
+
+  <g id="floating-sliders" inkscape:groupmode="layer" inkscape:label="Floating sliders — borderless">
+    <g id="slider-upper" inkscape:label="Upper slider — orange thumb">
+      <rect id="slider-upper-panel" x="552" y="345" width="726" height="145" rx="24" fill="#FFFFFF"/>
+      <g id="slider-upper-track" inkscape:label="Upper slider — track">
+        <rect id="slider-upper-track-base" x="611" y="402" width="609" height="31" rx="15.5" fill="#A8CDFC"/>
+        <rect id="slider-upper-track-value" x="611" y="402" width="312" height="31" rx="15.5" fill="#0955EB"/>
+      </g>
+      <circle id="slider-upper-thumb" cx="923" cy="417" r="34" fill="#F74816"/>
+    </g>
+    <g id="slider-lower" inkscape:label="Lower slider — sky-blue thumb">
+      <rect id="slider-lower-panel" x="557" y="546" width="721" height="144" rx="24" fill="#FFFFFF"/>
+      <g id="slider-lower-track" inkscape:label="Lower slider — track">
+        <rect id="slider-lower-track-base" x="612" y="602" width="608" height="31" rx="15.5" fill="#A8CDFC"/>
+        <rect id="slider-lower-track-value" x="612" y="602" width="216" height="31" rx="15.5" fill="#0955EB"/>
+      </g>
+      <circle id="slider-lower-thumb" cx="828" cy="617.5" r="36.5" fill="#75B0FD"/>
+    </g>
+  </g>
+</svg>

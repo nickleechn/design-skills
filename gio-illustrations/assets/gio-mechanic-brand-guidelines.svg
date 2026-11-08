@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1448" height="1086" viewBox="0 0 1448 1086" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">GIO mechanic holding a spanner and toolbox</title>
+  <desc id="description">An editable native vector reconstruction of the approved faceless mechanic. Smooth sparse curves, six solid GIO colours, no raster images, gradients, grain or filters. Remove the Background group for transparency. Parts are named for editing; no animation is applied.</desc>
+
+  <g id="background" inkscape:groupmode="layer" inkscape:label="Background — removable">
+    <rect id="background-fill" width="1448" height="1086" fill="#DFEBF8"/>
+  </g>
+
+  <g id="mechanic" inkscape:groupmode="layer" inkscape:label="Mechanic">
+    <g id="leg-toolbox-side" inkscape:label="Leg — toolbox side">
+      <path id="trouser-toolbox-side" fill="#0955EB" d="M685 447 L783 449 C797 486 800 528 804 574 C810 679 831 800 851 906 C855 917 861 919 860 934 L862 950 C844 956 821 960 801 956 C792 943 790 930 787 917 L754 768 C738 695 718 624 702 574 L685 530 Z"/>
+      <path id="trouser-toolbox-cuff" stroke="#75B0FD" stroke-width="2.7" stroke-linecap="round" d="M810 933 C823 931 835 922 848 923"/>
+    </g>
+
+    <g id="shoe-toolbox-side" inkscape:label="Shoe — toolbox side">
+      <path id="shoe-toolbox-sole" fill="#75B0FD" d="M799 980 C814 986 828 995 844 1002 C864 1012 889 1017 912 1006 L915 1017 C916 1022 913 1024 905 1026 C883 1031 862 1027 844 1018 L826 1005 C818 1010 807 1005 799 1001 C794 998 796 988 799 980 Z"/>
+      <path id="shoe-toolbox-upper" fill="#0955EB" d="M801 953 C820 956 842 954 857 949 C865 968 875 978 891 984 C904 988 912 995 913 1008 C890 1017 865 1015 847 1007 C831 998 817 990 799 985 Z"/>
+      <g id="shoe-toolbox-laces" stroke="#75B0FD" stroke-width="3.4" stroke-linecap="round">
+        <path id="lace-toolbox-1" d="M836 962 C844 958 852 957 860 958"/>
+        <path id="lace-toolbox-2" d="M844 971 C852 967 860 965 869 966"/>
+        <path id="lace-toolbox-3" d="M853 981 C861 977 869 975 878 976"/>
+      </g>
+    </g>
+
+    <g id="leg-spanner-side" inkscape:label="Leg — spanner side">
+      <path id="trouser-spanner-side" fill="#0955EB" d="M626 447 L697 450 C689 494 691 535 701 571 C705 611 703 677 700 727 C707 782 711 849 717 914 L715 939 C698 947 673 944 651 938 L647 911 C646 905 649 898 651 891 C639 823 625 752 616 675 C609 618 604 565 607 518 C608 491 615 468 626 447 Z"/>
+      <g id="trouser-spanner-details" stroke="#75B0FD" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round">
+        <path id="knee-crease" d="M645 731 C655 744 668 755 681 765"/>
+        <path id="trouser-spanner-cuff" d="M658 910 C670 910 681 918 694 918"/>
+      </g>
+    </g>
+
+    <g id="shoe-spanner-side" inkscape:label="Shoe — spanner side">
+      <path id="shoe-spanner-sole" fill="#75B0FD" d="M594 982 C612 992 636 994 655 987 C677 976 695 973 716 959 L719 979 C721 986 715 988 704 991 C695 995 687 993 681 991 C666 1003 650 1010 631 1012 C618 1014 602 1011 595 1007 C590 1004 593 990 594 982 Z"/>
+      <path id="shoe-spanner-upper" fill="#0955EB" d="M649 935 C671 942 693 945 713 939 L716 966 C704 974 688 977 676 982 C661 989 651 996 636 998 C619 1000 605 996 595 991 C594 979 602 975 617 970 C632 964 644 952 649 935 Z"/>
+      <g id="shoe-spanner-laces" stroke="#75B0FD" stroke-width="3.2" stroke-linecap="round">
+        <path id="lace-spanner-1" d="M648 945 C657 944 666 947 673 950"/>
+        <path id="lace-spanner-2" d="M640 953 C649 953 658 956 665 960"/>
+        <path id="lace-spanner-3" d="M632 962 C640 962 649 965 655 968"/>
+      </g>
+    </g>
+
+    <g id="arm-toolbox-side" inkscape:label="Arm — toolbox side">
+      <path id="sleeve-toolbox-side" fill="#0955EB" d="M765 206 C786 215 813 224 828 237 C839 248 845 277 851 305 C862 350 869 399 871 446 C873 451 876 460 875 470 L875 492 C862 498 844 501 830 497 L823 470 C817 449 810 427 809 395 L797 358 C793 321 780 268 765 244 Z"/>
+      <g id="sleeve-toolbox-seams" stroke="#75B0FD" stroke-width="2.3" stroke-linecap="round">
+        <path id="sleeve-toolbox-shoulder" d="M816 247 C805 266 799 287 797 309"/>
+        <path id="sleeve-toolbox-cuff" d="M824 470 C840 472 856 469 872 465"/>
+      </g>
+      <path id="forearm-toolbox-side" fill="#FFFFFF" d="M836 498 C846 499 858 497 869 495 C869 520 875 543 878 563 C878 574 872 582 863 581 L842 579 C833 581 825 576 826 567 L826 550 C827 540 837 532 839 522 Z"/>
+    </g>
+
+    <g id="arm-spanner-side" inkscape:label="Arm — spanner side">
+      <path id="sleeve-spanner-side" fill="#0955EB" d="M661 210 C645 218 621 227 610 238 C598 253 593 278 587 302 L570 350 C563 363 556 378 556 392 C555 412 567 426 585 426 C604 426 620 409 626 390 C633 367 631 341 623 311 L630 267 Z"/>
+      <path id="sleeve-spanner-seam" stroke="#75B0FD" stroke-width="2.3" stroke-linecap="round" d="M614 254 C615 274 618 292 622 309"/>
+      <path id="sleeve-spanner-cuff" stroke="#75B0FD" stroke-width="2.1" stroke-linecap="round" d="M562 378 C559 397 565 411 578 414"/>
+    </g>
+
+    <g id="torso" inkscape:label="Coveralls — torso">
+      <path id="coveralls-body" fill="#0955EB" d="M663 210 L682 190 C704 183 727 181 744 185 L765 206 L798 222 C807 251 802 277 797 310 C795 347 790 389 783 428 L784 450 C738 457 674 457 625 448 L628 424 C632 393 632 354 623 311 L611 242 C624 226 645 219 663 210 Z"/>
+      <path id="undershirt" fill="#75B0FD" d="M682 215 L737 213 L728 230 L695 265 Z"/>
+      <g id="coveralls-seams" stroke="#75B0FD" stroke-linecap="round" stroke-linejoin="round">
+        <path id="zip-seam" stroke-width="3.2" d="M695 265 C690 321 687 383 688 451 C687 480 687 509 690 529"/>
+        <path id="waist-seam-upper" stroke-width="2.3" d="M628 428 C675 435 736 436 782 428"/>
+        <path id="waist-seam-lower" stroke-width="2.3" d="M626 448 C673 456 737 458 784 450"/>
+        <path id="hip-pocket-opening" stroke-width="2.2" d="M765 463 C773 484 781 502 796 515"/>
+        <path id="chest-pocket" stroke-width="2.1" d="M723 292 L778 294 L776 340 L747 353 L721 340 Z"/>
+      </g>
+    </g>
+
+    <g id="head-and-neck" inkscape:label="Head — featureless">
+      <path id="neck" fill="#FFFFFF" d="M685 169 L737 148 L744 198 C739 211 731 223 718 229 C705 235 689 233 682 225 L682 205 L686 197 Z"/>
+      <path id="neck-definition" fill="#A8CDFC" d="M681 174 C696 186 710 185 725 174 C715 187 698 195 685 185 Z"/>
+      <path id="hair-silhouette" fill="#0955EB" d="M655 88 C649 85 646 81 645 76 C650 78 655 78 660 76 C655 74 652 69 652 64 C665 71 675 60 692 58 C708 55 723 61 729 71 C744 72 749 88 749 108 L745 131 L734 141 L662 137 C658 125 649 116 647 106 C645 97 648 91 655 88 Z"/>
+      <path id="face" fill="#FFFFFF" d="M664 94 C681 97 697 86 712 86 C722 84 723 89 725 99 C727 108 734 110 734 124 L738 125 C739 116 743 112 748 113 C754 115 754 128 750 136 C747 143 744 145 739 145 C739 157 733 170 724 177 C714 185 698 186 688 180 C678 174 671 164 668 154 C662 155 658 146 657 137 C656 131 658 128 662 134 L664 137 C663 122 658 108 661 100 Z"/>
+      <path id="hair-part" stroke="#75B0FD" stroke-width="1.4" stroke-linecap="round" d="M729 72 L723 86"/>
+    </g>
+
+    <g id="collar" inkscape:label="Coveralls — collar">
+      <path id="collar-spanner-side" fill="#0955EB" stroke="#75B0FD" stroke-width="2" stroke-linejoin="round" d="M681 196 L681 226 L695 265 L670 245 L675 232 L650 243 L663 213 Z"/>
+      <path id="collar-toolbox-side" fill="#0955EB" stroke="#75B0FD" stroke-width="2" stroke-linejoin="round" d="M744 196 L731 224 L695 265 L732 245 L729 231 L763 241 L765 207 Z"/>
+    </g>
+
+    <g id="spanner-and-grip" inkscape:label="Spanner and gripping hand">
+      <g id="spanner" inkscape:label="Spanner">
+        <path id="spanner-shape" fill="#A8CDFC" d="M563 285 C574 285 581 294 582 304 C583 314 576 321 569 325 L617 423 C621 431 614 440 607 438 C603 437 600 434 598 430 L558 327 C546 325 540 319 540 309 C539 302 542 296 545 292 L552 309 L562 311 L569 304 Z"/>
+        <circle id="spanner-handle-hole" cx="607.5" cy="427.5" r="4.4" fill="#DFEBF8"/>
+      </g>
+      <path id="hand-spanner-grip" fill="#FFFFFF" d="M566 374 C571 368 582 365 590 361 C590 357 593 354 597 354 C602 354 607 359 611 365 C613 369 608 372 603 371 L600 370 C607 374 610 379 607 383 C613 387 613 392 608 395 C613 400 610 406 605 407 C602 413 594 416 585 415 C574 414 568 407 566 397 C565 389 564 382 566 374 Z"/>
+    </g>
+
+    <g id="toolbox-and-grip" inkscape:label="Toolbox and gripping hand">
+      <path id="toolbox-handle" fill="#0955EB" fill-rule="evenodd" d="M823 598 L823 582 C823 568 831 560 844 560 L865 560 C879 560 886 568 886 582 L886 596 L876 596 L876 582 C876 575 872 570 865 570 L844 570 C837 570 833 575 833 582 L833 598 Z"/>
+      <path id="hand-toolbox-grip" fill="#FFFFFF" d="M838 547 C849 543 863 548 871 556 C876 561 878 569 875 575 C875 580 872 583 868 582 C867 586 862 587 858 584 C855 588 850 588 847 585 C842 589 836 586 837 581 L840 569 C838 565 833 564 828 565 C827 557 831 550 838 547 Z"/>
+      <g id="toolbox" inkscape:label="Toolbox — case and latch">
+        <path id="toolbox-case" fill="#75B0FD" d="M790 595 L918 592 C927 592 931 596 931 605 L931 682 C931 690 928 693 920 694 L832 702 L789 700 C782 699 779 696 779 690 L779 607 C779 599 782 596 790 595 Z"/>
+        <path id="toolbox-side-plane" fill="#A8CDFC" d="M791 595 L823 596 C829 597 831 601 831 608 L831 691 C831 698 829 702 822 701 L788 699 C782 699 779 696 779 690 L779 607 C779 599 782 596 791 595 Z"/>
+        <path id="toolbox-lid-seam" stroke="#0955EB" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" d="M779 634 L831 637 L931 631"/>
+        <path id="toolbox-side-edge" stroke="#75B0FD" stroke-width="1.7" stroke-linecap="round" d="M831 603 L831 632 M831 641 L831 695"/>
+        <path id="toolbox-latch" fill="#F74816" d="M875 618 L887 617 C890 617 891 618 891 621 L891 648 C891 651 889 652 887 652 L876 653 C873 653 872 652 872 649 L872 622 C872 619 873 618 875 618 Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

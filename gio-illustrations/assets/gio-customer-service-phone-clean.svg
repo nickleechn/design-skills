@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1448" height="1086" viewBox="0 0 1448 1086" role="img" aria-labelledby="title description">
+  <title id="title">GIO customer service representative answering the phone</title>
+  <desc id="description">A slender, faceless woman seated at a slim desk, holding an orange telephone handset beside a monitor. Clean native vector shapes, solid GIO colours and no grain, texture or gradients. Background, chair, desk, figure, handset, cord, telephone base, keyboard and monitor have named editable parts.</desc>
+  <g id="background" aria-label="Removable pale blue background">
+    <rect id="background-fill" width="1448" height="1086" fill="#DFEBF8"/>
+  </g>
+  <g id="phone-support-scene" aria-label="Complete customer service scene">
+    <g id="desk-legs" fill="#75B0FD" aria-label="Four slim desk legs">
+      <path id="desk-leg-left-front" d="M 286 545 H 309 L 267 956 Q 266 960 256 957 Z"/>
+      <path id="desk-leg-left-rear" d="M 425 545 H 447 L 435 944 Q 435 947 424 945 Z"/>
+      <path id="desk-leg-right-front" d="M 1035 545 H 1056 L 1066 960 Q 1062 963 1054 961 Z"/>
+      <path id="desk-leg-right-rear" d="M 1154 545 H 1176 L 1203 942 Q 1203 946 1192 945 Z"/>
+    </g>
+
+    <g id="office-chair" aria-label="Chair with separate seat and pedestal">
+      <g id="chair-pedestal" fill="#0955EB">
+        <rect id="chair-underseat" x="586" y="670" width="66" height="25" rx="7"/>
+        <path id="chair-column" d="M 607 693 H 631 V 857 H 607 Z"/>
+        <path id="chair-base" d="M 607 850 L 485 887 Q 478 889 479 897 L 482 906 L 493 901 L 607 882 L 611 904 H 626 L 631 882 L 762 902 L 768 908 L 773 896 Q 774 889 767 887 L 631 852 Z"/>
+        <circle id="chair-wheel-left" cx="481" cy="920" r="19"/>
+        <circle id="chair-wheel-middle" cx="618" cy="920" r="19"/>
+        <circle id="chair-wheel-right" cx="771" cy="920" r="19"/>
+      </g>
+      <path id="chair-back-and-seat" fill="#75B0FD" d="M 471 359 H 545 L 575 489 L 689 550 L 738 676 H 532 C 499 676 485 662 483 635 L 479 514 L 438 409 C 427 381 438 359 471 359 Z"/>
+    </g>
+
+    <g id="representative" aria-label="Faceless seated representative">
+      <g id="legs-and-feet" aria-label="Elongated seated legs and modest shoes">
+        <g id="far-leg">
+          <path id="far-trouser-leg" fill="#0955EB" d="M 610 538 L 690 546 L 825 602 C 843 610 850 622 855 647 L 907 893 L 866 901 L 781 682 L 741 646 L 607 614 Z"/>
+          <path id="far-ankle-and-foot" fill="#FFFFFF" d="M 868 897 L 903 891 L 909 911 C 920 923 934 931 949 936 L 948 945 L 873 950 L 864 926 Z"/>
+          <path id="far-shoe" fill="#0955EB" d="M 869 917 C 890 930 920 943 947 935 C 961 940 979 946 984 952 C 992 962 949 964 900 955 L 899 960 L 869 959 C 861 946 864 931 869 917 Z"/>
+        </g>
+        <g id="near-leg">
+          <path id="near-trouser-leg" fill="#0955EB" d="M 543 536 L 626 546 L 769 603 C 791 613 803 625 797 648 L 728 901 L 685 895 L 722 661 L 578 638 C 551 634 537 623 531 603 C 526 581 528 557 543 536 Z"/>
+          <path id="trouser-leg-separation" fill="none" stroke="#75B0FD" stroke-width="7" stroke-linecap="round" d="M 632 546 L 771 608 C 794 618 803 628 798 648 L 785 693"/>
+          <path id="near-ankle-and-foot" fill="#FFFFFF" d="M 688 894 L 728 901 L 724 916 C 732 929 743 940 755 947 L 751 955 L 681 943 L 677 929 Z"/>
+          <path id="near-shoe" fill="#0955EB" d="M 681 917 C 699 936 726 956 753 948 C 765 955 781 964 782 970 C 785 982 737 974 686 963 L 674 960 C 667 947 671 930 681 917 Z"/>
+        </g>
+      </g>
+
+      <path id="waistband" fill="#0955EB" d="M 544 487 L 677 485 L 682 518 H 541 Z"/>
+
+      <g id="shirt-and-keyboard-arm" aria-label="Collared shirt and working arm">
+        <path id="shirt-body" fill="#A8CDFC" d="M 611 275 L 649 272 L 684 291 C 716 300 729 308 733 339 L 744 398 L 758 461 C 769 465 780 474 780 484 L 759 509 L 737 511 C 714 504 704 484 696 452 L 681 487 C 678 493 649 492 635 491 C 627 492 631 504 624 510 C 612 517 599 509 588 511 C 560 520 532 509 514 496 C 522 469 524 442 529 410 L 534 339 C 534 310 547 291 575 285 Z"/>
+        <path id="right-shirt-plane" fill="#75B0FD" d="M 693 318 L 714 338 C 710 359 721 382 716 397 C 711 416 699 429 695 449 L 681 487 C 678 493 650 492 636 491 C 629 488 634 466 638 445 L 657 384 Z"/>
+        <path id="left-sleeve-plane" fill="#75B0FD" d="M 595 350 L 605 413 L 623 425 L 636 441 C 629 466 625 492 613 504 C 600 517 582 514 567 511 C 587 491 585 465 586 444 Z"/>
+        <path id="working-sleeve" fill="#A8CDFC" d="M 716 385 L 741 390 L 758 461 C 767 463 777 473 780 483 L 757 510 L 738 511 C 710 501 701 478 695 449 Z"/>
+        <path id="keyboard-cuff" fill="#75B0FD" d="M 739 475 C 750 466 767 463 777 476 L 784 486 L 769 508 H 741 C 737 498 737 486 739 475 Z"/>
+        <path id="shirt-sleeve-seams" fill="none" stroke="#75B0FD" stroke-width="2.1" stroke-linecap="round" d="M 713 350 C 710 368 721 382 716 397 C 712 414 700 428 695 446 M 724 476 C 739 462 750 458 758 463 M 741 490 Q 738 499 741 507 M 573 483 L 574 496"/>
+        <path id="keyboard-hand" fill="#FFFFFF" d="M 758 502 C 755 491 759 481 766 479 C 773 477 780 483 785 482 L 804 475 C 811 472 815 472 822 477 L 835 485 L 849 504 L 843 505 L 830 491 L 822 488 L 835 504 L 829 506 L 816 491 L 805 486 L 794 493 C 802 493 811 495 813 499 C 815 504 809 506 803 503 L 788 501 C 779 506 768 506 758 502 Z"/>
+        <path id="keyboard-finger-lines" fill="none" stroke="#A8CDFC" stroke-width="1.7" stroke-linecap="round" d="M 814 484 L 824 489 L 838 504 M 825 482 L 834 488 L 844 503"/>
+      </g>
+
+      <g id="head-and-hair" aria-label="Small completely featureless head">
+        <path id="neck" fill="#FFFFFF" d="M 642 238 L 665 250 L 669 279 C 679 284 685 299 680 317 L 677 338 L 647 302 L 630 280 Z"/>
+        <path id="hair-main" fill="#0955EB" d="M 601 171 C 589 188 589 206 600 220 C 608 230 620 234 636 237 L 660 211 L 687 155 C 705 166 711 184 708 214 C 713 201 722 185 718 169 C 715 153 702 145 685 141 C 668 129 644 133 630 139 Z"/>
+        <path id="hair-bun" fill="#0955EB" d="M 649 136 C 643 114 619 112 602 123 C 584 135 584 157 595 170 C 607 185 638 176 649 157 Z"/>
+        <path id="blank-face" fill="#FFFFFF" d="M 687 155 C 702 165 708 183 708 204 C 710 224 704 244 694 254 C 685 264 666 255 655 246 C 646 236 642 222 645 204 C 664 192 678 174 687 155 Z"/>
+        <path id="loose-hair-lock" fill="#0955EB" d="M 708 204 C 706 218 710 225 713 234 C 716 245 710 251 718 264 C 713 253 721 247 720 237 C 721 226 713 220 714 210 Z"/>
+        <path id="collar-left" fill="#75B0FD" d="M 611 275 L 625 263 L 647 302 L 627 324 Z"/>
+        <path id="collar-right" fill="#75B0FD" d="M 682 289 L 697 310 L 705 336 L 692 325 L 677 339 Z"/>
+        <path id="collar-inner" fill="#FFFFFF" d="M 653 285 L 664 283 L 681 302 L 677 336 Z"/>
+      </g>
+
+      <g id="raised-arm-and-handset" aria-label="Bent arm holding a telephone to the ear">
+        <path id="raised-sleeve-cuff" fill="#A8CDFC" d="M 585 410 L 598 406 L 628 417 L 637 442 C 624 448 608 444 588 438 Z"/>
+        <path id="raised-forearm-and-palm" fill="#FFFFFF" d="M 596 408 C 606 378 622 338 627 311 L 623 282 C 619 266 623 248 633 242 C 637 238 642 238 646 241 L 649 248 C 644 251 641 255 642 261 L 648 272 L 657 278 C 652 302 645 329 639 357 L 626 419 Z"/>
+        <path id="handset" fill="#F74816" d="M 630 205 C 636 201 643 204 646 212 L 650 226 C 652 232 647 236 641 237 L 640 243 C 644 253 647 259 653 263 C 657 257 663 257 668 262 L 678 273 C 684 279 680 286 673 290 C 667 294 661 292 657 287 L 649 278 C 645 274 645 270 648 266 L 634 241 C 628 240 625 236 623 229 L 620 220 C 617 214 623 208 630 205 Z"/>
+        <path id="gripping-fingers" fill="#FFFFFF" d="M 624 264 C 627 249 637 241 646 244 L 661 248 C 667 250 667 256 661 255 L 649 251 L 641 258 L 637 272 C 642 260 650 255 658 258 L 668 263 C 673 266 671 271 666 268 L 656 264 L 649 273 L 646 282 C 650 272 656 266 662 267 L 671 272 C 677 275 675 281 670 278 L 661 274 L 654 286 L 644 292 L 630 280 Z"/>
+        <path id="grip-definition" fill="none" stroke="#A8CDFC" stroke-width="1.5" stroke-linecap="round" d="M 630 255 C 636 247 641 247 649 249 M 638 268 L 644 259 M 646 279 L 651 271"/>
+        <path id="handset-mouthpiece" fill="#F74816" d="M 657 260 C 661 257 666 259 670 264 L 678 273 C 684 280 678 286 671 290 C 665 294 659 290 655 284 L 650 277 C 646 272 651 264 657 260 Z"/>
+        <path id="cuff-seam" fill="none" stroke="#75B0FD" stroke-width="2" stroke-linecap="round" d="M 586 433 C 600 441 620 445 635 443 M 619 423 L 614 438"/>
+      </g>
+    </g>
+
+    <g id="telephone-cord" aria-label="Editable coiled phone cord">
+      <path id="cord-base-connector" d="M 487 499 L 490 510" fill="none" stroke="#F74816" stroke-width="2.4" stroke-linecap="round"/>
+      <path id="coiled-cord" d="M 667 294 C 666.75 295.5 666.01 296.76 665.65 297.35 C 665.28 297.94 665.5 298 666.11 298.98 C 666.73 299.95 667.55 302.09 667.23 304.83 C 666.91 307.56 665.25 310.71 663.41 311.65 C 661.57 312.59 660.36 311.35 660.59 310.41 C 660.81 309.48 662.41 309.07 663.67 310.56 C 664.93 312.06 665.56 315.39 664.72 318.52 C 663.88 321.65 661.66 324.2 659.83 324.86 C 657.99 325.51 656.82 324.33 657.1 323.39 C 657.38 322.44 659.01 322.1 660.19 323.63 C 661.38 325.17 661.83 328.51 660.83 331.56 C 659.83 334.62 657.49 337.03 655.63 337.56 C 653.77 338.09 652.67 336.83 653.01 335.88 C 653.35 334.93 655 334.65 656.11 336.23 C 657.21 337.81 657.5 341.14 656.34 344.12 C 655.19 347.1 652.73 349.36 650.85 349.77 C 648.97 350.18 647.95 348.85 648.35 347.9 C 648.75 346.95 650.41 346.74 651.44 348.36 C 652.47 349.97 652.59 353.3 651.28 356.19 C 649.97 359.09 647.41 361.2 645.52 361.49 C 643.63 361.78 642.68 360.38 643.14 359.44 C 643.6 358.5 645.28 358.36 646.23 360.02 C 647.18 361.67 647.12 364.98 645.68 367.79 C 644.23 370.6 641.56 372.55 639.67 372.73 C 637.77 372.91 636.91 371.45 637.42 370.52 C 637.94 369.59 639.63 369.53 640.5 371.22 C 641.37 372.9 641.15 376.19 639.57 378.91 C 637.98 381.63 635.23 383.43 633.33 383.5 C 631.44 383.57 630.66 382.06 631.23 381.14 C 631.79 380.23 633.5 380.24 634.29 381.96 C 635.07 383.68 634.7 386.94 632.98 389.56 C 631.27 392.18 628.44 393.84 626.55 393.8 C 624.66 393.77 623.97 392.21 624.59 391.31 C 625.2 390.41 626.91 390.5 627.62 392.25 C 628.33 394 627.8 397.23 625.96 399.75 C 624.13 402.28 621.22 403.78 619.35 403.64 C 617.47 403.51 616.86 401.91 617.53 401.03 C 618.19 400.16 619.9 400.32 620.53 402.09 C 621.16 403.86 620.48 407.06 618.54 409.48 C 616.59 411.91 613.62 413.26 611.76 413.03 C 609.9 412.8 609.37 411.16 610.09 410.32 C 610.8 409.47 612.5 409.7 613.05 411.49 C 613.61 413.28 612.78 416.43 610.74 418.76 C 608.69 421.09 605.67 422.3 603.82 421.97 C 601.98 421.65 601.54 419.99 602.29 419.16 C 603.05 418.34 604.75 418.65 605.22 420.46 C 605.7 422.26 604.74 425.37 602.6 427.59 C 600.45 429.82 597.39 430.89 595.57 430.47 C 593.75 430.06 593.38 428.38 594.18 427.58 C 594.98 426.79 596.66 427.17 597.07 428.99 C 597.47 430.81 596.38 433.86 594.15 435.98 C 591.92 438.11 588.82 439.04 587.02 438.54 C 585.23 438.05 584.94 436.34 585.78 435.58 C 586.62 434.82 588.29 435.26 588.62 437.09 C 588.95 438.91 587.75 441.91 585.43 443.94 C 583.12 445.96 579.99 446.76 578.23 446.18 C 576.46 445.61 576.25 443.89 577.12 443.16 C 578 442.43 579.65 442.93 579.92 444.76 C 580.18 446.6 578.86 449.54 576.48 451.46 C 574.09 453.39 570.94 454.05 569.2 453.4 C 567.47 452.76 567.33 451.03 568.24 450.32 C 569.15 449.62 570.79 450.18 570.99 452.02 C 571.19 453.86 569.76 456.74 567.31 458.56 C 564.86 460.39 561.69 460.93 559.99 460.21 C 558.29 459.49 558.23 457.75 559.17 457.08 C 560.11 456.41 561.74 457.03 561.87 458.86 C 562.01 460.7 560.48 463.52 557.97 465.25 C 555.46 466.98 552.29 467.39 550.62 466.61 C 548.95 465.82 548.97 464.08 549.94 463.43 C 550.91 462.79 552.52 463.46 552.6 465.3 C 552.67 467.14 551.05 469.89 548.49 471.52 C 545.93 473.15 542.75 473.45 541.12 472.6 C 539.49 471.75 539.58 470 540.58 469.39 C 541.58 468.78 543.17 469.5 543.2 471.33 C 543.22 473.17 541.51 475.86 538.9 477.39 C 536.3 478.93 533.12 479.11 531.53 478.2 C 529.94 477.29 530.09 475.54 531.12 474.96 C 532.16 474.37 533.73 475.14 533.7 476.97 C 533.67 478.8 531.89 481.42 529.24 482.86 C 526.59 484.3 523.42 484.37 521.87 483.41 C 520.33 482.44 520.55 480.69 521.61 480.13 C 522.67 479.58 524.23 480.4 524.15 482.21 C 524.07 484.03 522.21 486.59 519.53 487.94 C 516.85 489.29 513.69 489.25 512.19 488.23 C 510.69 487.2 510.97 485.46 512.06 484.93 C 513.15 484.4 514.7 485.26 514.57 487.07 C 514.45 488.88 512.52 491.38 509.81 492.63 C 507.1 493.89 503.96 493.74 502.5 492.67 C 501.05 491.59 501.4 489.85 502.52 489.35 C 503.64 488.85 505.17 489.76 505.01 491.55 C 504.84 493.35 502.85 495.78 500.11 496.94 C 497.38 498.11 494.1 497.92 492.85 496.73 C 491.6 495.54 492.54 494.13 493.3 494.09 C 494.06 494.06 494.43 495.23 493.62 496.4 C 492.81 497.58 491.02 498.51 489.65 498.78 C 488.28 499.05 487.48 498.82 487 499" fill="none" stroke="#F74816" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <g id="desktop" aria-label="Slim white desk top">
+      <path id="desktop-surface" fill="#FFFFFF" d="M 251 524 L 681 511 L 1039 513 L 1211 524 Q 1214 524 1214 527 V 536 Q 1214 538 1211 538 H 252 Q 249 538 249 535 V 527 Q 249 524 251 524 Z"/>
+      <path id="desktop-front-edge" fill="#A8CDFC" d="M 261 538 H 1202 V 545 Q 1202 547 1198 547 H 265 Q 261 547 261 543 Z"/>
+    </g>
+
+    <g id="desk-equipment" aria-label="Telephone, keyboard and monitor">
+      <g id="telephone-base" aria-label="Desk telephone">
+        <path id="telephone-wedge" fill="#75B0FD" d="M 413 463 H 449 L 490 507 L 486 517 H 369 Z"/>
+        <path id="telephone-body" fill="#0955EB" d="M 359 450 H 411 Q 415 450 418 455 L 492 508 Q 497 519 488 520 H 368 Q 360 520 365 513 L 370 505 L 352 463 Q 349 451 359 450 Z"/>
+        <path id="telephone-keypad-panel" fill="#75B0FD" d="M 427 469 H 449 L 482 506 H 454 Z"/>
+        <path id="telephone-keypad" fill="none" stroke="#0955EB" stroke-width="3.2" stroke-linecap="square" d="M 434 474 H 441 M 445 474 H 451 M 439 481 H 446 M 450 481 H 456 M 445 488 H 452 M 456 488 H 462 M 451 495 H 458 M 462 495 H 468"/>
+      </g>
+
+      <g id="keyboard" aria-label="Simple keyboard">
+        <path id="keyboard-top" fill="#A8CDFC" d="M 747 505 H 908 Q 910 505 910 509 H 739 Z"/>
+        <rect id="keyboard-front" x="735" y="509" width="185" height="11" rx="3" fill="#75B0FD"/>
+      </g>
+
+      <g id="monitor" aria-label="Monitor back and stand">
+        <path id="monitor-side-edge" fill="#75B0FD" d="M 950 269 L 1190 272 L 1150 471 L 911 479 L 905 478 Q 902 478 904 472 L 943 274 Q 944 269 950 269 Z"/>
+        <path id="monitor-back" fill="#A8CDFC" d="M 958 271 H 1186 Q 1193 271 1191 278 L 1152 466 Q 1151 471 1146 471 L 916 479 L 954 275 Q 955 271 958 271 Z"/>
+        <path id="monitor-edge-definition" fill="none" stroke="#0955EB" stroke-width="2" d="M 951 275 L 912 474"/>
+        <path id="monitor-stand" fill="#75B0FD" d="M 1046 395 H 1073 Q 1077 395 1078 400 L 1103 513 Q 1105 520 1097 520 H 1003 Q 1000 520 1002 515 L 1057 514 Q 1063 513 1062 507 L 1041 405 Z"/>
+        <path id="monitor-stand-edge" fill="none" stroke="#0955EB" stroke-width="2" d="M 1044 405 L 1065 506 Q 1066 513 1062 516"/>
+      </g>
+    </g>
+  </g>
+</svg>

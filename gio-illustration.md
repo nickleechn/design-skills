@@ -1,237 +1,324 @@
-# GIO Marshmallow Illustration Style
+# GIO Illustration Style — Brand Guidelines Adaptation
 
-A reusable guide for creating soft, friendly GIO illustrations from simple rounded forms, bright colour and generous breathing room.
+Style updated 7 October 2026; GitHub edition published 9 November 2026.
+This is the active illustration guide and replaces the former Marshmallow direction.
 
-## Visual references
+Use the illustration language in the supplied GIO brand-guideline PDF, recoloured with
+the six existing project colours below. This replaces the former **Marshmallow** style.
+Do not combine the old inflated shapes or expressive cartoon faces with the new style.
 
-The written rules below take precedence over older example images. Use the Harbour Bridge
-and updated Opera House for the current detail level and 4:3 framing, and the flat Telstra Tower for solid-fill
-construction. Earlier references show the rounded forms and palette; do not copy their gradients.
+**Project finish override — 7 October 2026:** use pure, clean, solid-colour shapes.
+No grain, noise, speckling, stippling or surface texture. This user-approved requirement
+takes precedence over texture shown or described in the PDF and earlier sample images.
+Keep the PDF-derived proportions, faceless characters and drawing language unchanged.
 
-### Sydney Harbour Bridge — 4:3, modest detail
+## Source and authority
 
-![GIO Marshmallow Sydney Harbour Bridge with modest architectural detail on a 4:3 canvas](gio-illustrations/assets/gio-sydney-harbour-bridge.png)
+Source: *GIO - Brand Guidelines v1 - Website Team - Not Final.pdf*, supplied for
+this project. The source PDF and its page captures are not redistributed here.
 
-### Armchair and standing lamp
+Relevant pages, using **PDF page numbers** rather than the book's printed pagination:
 
-![GIO Marshmallow armchair with standing lamp](gio-illustrations/assets/gio-armchair-standing-lamp.png)
+- **53 — Illustration Style:** a current/suggested-adaptation comparison. Simplified
+  lines, textures and detail support a clear hero subject; tonal blues and a warm accent
+  organise the scene. The light-background adaptation adds definition to the objects.
+  The page identifies that adaptation as a rough suggestion, not finished artwork.
+- **54 — Illustration Character Style** (printed page 65): people have exaggerated,
+  elongated limbs, no faces or facial expressions, and a speckled texture. Adopt the
+  character construction, but omit its texture under the project finish override above.
+- **55 — Illustration Animation** (printed page 66): movement is simple, refined and
+  physically grounded, without exaggerated cartoon pops, bounces or whips.
 
-### Coffee shop
+The supplied PDF is labelled **Not Final**. This document is the requested project
+adaptation of its illustration direction, not a claim of final brand-team approval.
 
-![GIO Marshmallow coffee shop storefront](gio-illustrations/assets/gio-coffee-shop-storefront.png)
+Apply the PDF's **illustration sections**, not its photographic campaign, logo, web-icon,
+typography or gradient-background treatments. Preserve the project's new palette instead
+of importing the PDF's legacy blues, red, greys or other colours.
 
-### Sydney Opera House — 4:3, modest detail
+### Using the source references
 
-![GIO Marshmallow Sydney Opera House with rounded sail insets and modest detail on a 4:3 canvas](gio-illustrations/assets/gio-sydney-opera-house-flat-4x3.png)
+PDF pages 53–55 are references for shapes, proportions and composition, not colour or
+texture. Do not copy their grain or speckling. Their text, page layout, logos and
+annotation colours are not part of a new illustration. The current project examples
+below demonstrate the adapted palette and clean finish without redistributing the PDF.
 
-### Canberra Telstra Tower — Figma-ready flat construction
+### Superseded work
 
-![GIO Marshmallow Canberra Telstra Tower](gio-illustrations/assets/gio-canberra-telstra-tower.png)
+The [previous Marshmallow guide](gio-illustration-marshmallow-archive-2026-11-09.md)
+is retained for historical reference. Its example images, prompts, dot eyes, line noses
+and pill-shaped construction are **not current style instructions**. The clean solid
+finish specified here is a new project override, not a return to Marshmallow geometry.
+Existing image and SVG files are preserved, but must not be used as style references for
+new work unless the user explicitly asks for that earlier direction.
 
 ## Style in one sentence
 
-GIO Marshmallow uses a few large, softly inflated geometric shapes, bright cobalt and sky blue, a tiny warm orange-red accent and a fresh pale blue-white background to create illustrations that feel simple, rounded, optimistic and immediately recognisable.
+Create a refined, flat editorial illustration with simplified, recognisable silhouettes,
+elongated faceless people, restrained graphic detail and pure solid-colour shapes, using
+the project's cobalt/blue/white palette with a small orange-red accent.
 
-## Core principles
+## What changes, and what stays
 
-### Marshmallow shape language
+- **Change:** inflated, uniformly rounded Marshmallow forms become leaner, flatter
+  geometric and organic shapes with a mix of straight edges, gentle curves and purposeful
+  angles.
+- **Change:** dot eyes, line noses and smiles become completely featureless faces.
+- **Change:** inflated plastic-like masses become clean layered graphic shapes without
+  grain, speckling or surface texture.
+- **Change:** broad capsule furniture and chunky figures become believable objects and
+  elongated adult figures, with sparse defining lines.
+- **Keep:** all six colour values, uncluttered composition, clear subject recognition,
+  editable vector-friendly construction, and no unnecessary props.
+- **Keep as project production defaults:** 4:3 framing and comfortable uncropped margins.
+  These are project conventions, not claimed requirements from the PDF.
+- **Keep:** no photographic rendering, glossy 3D, lighting gradients or heavy shadows.
+- **Project override:** omit the PDF's speckled texture entirely. Pure shapes and solid
+  fills are the required finish, not an optional texture-free export.
 
-- Construct the subject from a small number of large, soft forms.
-- Favour pills, capsules, rounded rectangles, broad arches, plump cushions and smooth lozenges.
-- Make corners generously rounded and transitions gentle.
-- Avoid needle points, hard triangular wedges, sharp corners and brittle technical geometry.
-- An identifying tip or peak may taper, but soften its surrounding curve so it never feels spiky.
-- Keep forms slightly inflated and friendly without turning them into glossy 3D objects.
+## Retained project palette
 
-### Simplicity and detail
-
-- Use one clear hero silhouette and a small set of supporting rounded forms.
-- Aim for a modestly detailed illustration with about four to six purposeful detail groups.
-- Examples include a cap or rim, an inset opening, a seam, a deck edge or a few structural braces.
-- Treat repeated structural elements as one sparse group. Keep them broad and well spaced.
-- Use details that remain readable at a small display size; simplify anything that turns into visual noise.
-- For architecture, suggest windows and entrances with broad panels; never draw a grid of individual panes.
-- Remove seams, lines or accessories that do not materially improve recognition.
-- The result should feel a little richer than a basic icon while retaining the friendly Marshmallow silhouette.
-
-### Finish
-
-- Use clean, opaque vector shapes with crisp outer edges.
-- Every shape uses one uniform solid colour from edge to edge.
-- Use no gradients, shadows, transparency, blur, glow, lighting effects or blend modes.
-- Build all depth through separate overlapping shapes selected from the approved palette.
-- Keep the construction simple enough to recreate directly in Figma.
-- Do not use grain, noise, speckling, paper texture, a sandpaper effect, grey wash, haze or distressed edges.
-- Avoid outlines where overlapping colour shapes can define the form.
-
-## Composition
-
-- Default canvas: 4:3 landscape (for example 1600 × 1200 px). Use another ratio only when explicitly requested.
-- Compose directly for that canvas; do not stretch the artwork or crop a wide banner to fit.
-- Show the complete subject with at least 12–15% clear space on every side.
-- Nothing important may touch or cross the canvas edge.
-- Let the complete subject occupy roughly 65–75% of the canvas width, with height governed by its natural proportions and the same safe margins.
-- Keep the visual weight calm, open and balanced.
-- Use a straight-on front view for buildings and storefronts.
-- Use a front or very gentle three-quarter view for individual objects.
-- Do not use isometric perspective unless explicitly requested.
-- Start every brief as a fresh composition; never carry over objects from a previous illustration.
-
-## Approved colour palette
-
-These colours were sampled from the approved GIO Marshmallow armchair reference.
+The hex values below are unchanged from the previous MD. Colour roles are adapted to
+the PDF's flatter, more graphic style.
 
 | Role | Colour | Hex |
 | --- | --- | --- |
-| Dominant structure | Cobalt blue | `#0955EB` |
-| Secondary surfaces | Sky blue | `#75B0FD` |
-| Soft secondary plane | Soft blue | `#A8CDFC` |
-| Main background | Pale blue-white | `#DFEBF8` |
-| Highlights | White | `#FFFFFF` |
-| Small accent only | Warm orange-red | `#F74816` |
+| Main structure, hair, clothing, defining lines | Cobalt blue | `#0955EB` |
+| Secondary objects and clothing planes | Sky blue | `#75B0FD` |
+| Light planes and secondary shape definition | Soft blue | `#A8CDFC` |
+| Default light background | Pale blue-white | `#DFEBF8` |
+| Faces, hands, light surfaces and negative space | White | `#FFFFFF` |
+| Small focal accent, replacing the source's red | Warm orange-red | `#F74816` |
 
-Use cobalt for the main mass, sky blue for secondary forms, white for highlights and warm orange-red for only 2–5% of the image. Use `#DFEBF8` as one uniform background fill.
+Use blue as the dominant family and white to separate forms. Keep orange-red concentrated
+in one or a few meaningful details, normally a small proportion of the illustration.
+Not every illustration needs all six colours.
 
-Do not substitute the older corporate navy `#005296`, deep blue `#014A73` or dark red `#E3001B`. Avoid unrelated greens, browns, yellows, purples, black and neutral greys.
+For the default light-background treatment, use `#DFEBF8` and define pale objects with
+selective cobalt or sky-blue edges. A cobalt-background treatment may be used when the
+brief calls for it, with white and lighter blues providing separation.
 
-## Subject guidance
+Do not sample colours from raster references. Do not import navy, dark red, black,
+neutral greys, greens, browns, skin-tone colours, or the PDF's magenta review annotations.
+For depth, use separate overlapping shapes in approved solid colours, not gradients
+or surface texture.
 
-### Objects and furniture
+## Drawing language
 
-- Build the object from broad rounded masses with a strong silhouette.
-- Use one or two large seams or insets only when needed for recognition.
-- Make cushions, handles, shades and bases feel soft and comfortably proportioned.
-- Use a single pill-shaped grounding form when the subject needs weight.
+### Flat shapes with selective definition
 
-### Architecture and storefronts
+- Build a readable silhouette from a small number of flat filled shapes.
+- Use straight architectural edges, tapered clothing, slim furniture and natural curves.
+  Round a corner where the object warrants it; do not round every corner automatically.
+- Maintain recognisable proportions of objects such as cars, desks, phones and buildings.
+  Simplify their construction rather than turning them into inflated toys.
+- Use selective thin lines for collars, sleeves, seams, door/window frames, furniture
+  edges, branches or other recognition-critical features.
+- Avoid a heavy uniform cartoon outline around every shape. Internal lines should support
+  hierarchy, not produce dense technical drawings.
+- Create depth through overlap and a few separate solid-colour planes. Keep perspective
+  modest and scene-like, not a default isometric or glossy 3D treatment.
+- Include enough detail to identify the subject and action; omit decorative clutter.
+  The source's principle is restraint, not a mandatory fixed number of detail groups.
 
-- Use a simplified front elevation.
-- Preserve the recognisable roofline or facade as one soft hero silhouette.
-- Represent glazing, doors and signs as a few large rounded panels.
-- Use a simple pictogram instead of words or generated branding.
-- A few broad structural braces, pylon caps, panel divisions and a simple deck edge may add useful definition.
-- Do not include dense window grids, masonry lines, fine railings or architectural micro-detail.
+### People — elongated and faceless
 
-### People
+- Use stylised adult proportions: a relatively small head, long slender arms and legs,
+  a clear torso, and simple hands and feet. Exaggeration is elegant, not rubbery.
+- Use natural working or conversational poses. Communicate attention, confidence and
+  warmth through head angle, shoulders, hand gestures and posture.
+- Heads are simple featureless shapes. **No eyes, eyebrows, nose, mouth, smile, cheeks,
+  eyelashes or other facial expressions.** The earlier dot-eye/line-nose rule is retired.
+- Hair is one simple graphic silhouette, not strands, glossy highlights or a large
+  cartoon quiff. Keep the head distinct from the shoulders with a readable neck.
+- Clothing uses broad graphic panels, believable collars or cuffs and sparse fold lines.
+  Trousers may taper. Shoes are modest shapes, not oversized rounded sneakers.
+- Hands can be simplified but must convincingly hold a handset or touch a keyboard.
+- Vary body shape, hair and clothing across a series while maintaining the same slender,
+  simplified visual language. Avoid stereotypes.
+- Use only the retained palette; white or a light approved blue can represent exposed
+  skin as an abstract brand treatment.
 
-- Use simplified elongated proportions with soft joints and an expressive pose.
-- Include minimal friendly facial features when visible: small eyes and a simple mouth or nose.
-- Keep hair and clothing as large rounded colour blocks.
-- Vary posture between illustrations; do not reuse the same figure.
+### Clean solid finish — no texture
 
-## Master prompt
+The PDF uses speckling, but the user's 7 October 2026 feedback explicitly excludes it
+from this project. Match the reference's shapes and proportions, not its surface finish.
 
-```text
-Create one original GIO Marshmallow illustration of [SUBJECT].
+- Every shape and background uses one uniform, opaque, solid colour from edge to edge.
+- No grain, noise, speckles, stippling, scattered flecks, paper texture, sandpaper effect,
+  distressed edges or texture overlays, even in small or isolated areas.
+- Keep faces completely blank and all surfaces clean.
+- Create separation with shape boundaries, selective defining lines and overlapping
+  solid-colour planes, never with surface noise.
+- No gradients, grey wash, transparency, glossy shading, blurred shadows, bevels or
+  realistic lighting. A flat ground shape or an overlapping colour plane is acceptable.
+- Do not reintroduce texture because it appears in a source reference or older sample.
+- For SVGs, use clean editable paths and solid fills; do not add grain layers, texture
+  patterns, filters or embedded raster effects.
 
-Build the subject from a small number of large, softly inflated geometric shapes. Favour
-pills, capsules, rounded rectangles, broad arches and smooth lozenges. Use one clear hero
-silhouette, a small set of supporting forms and about four to six purposeful detail groups.
-Use broad well-spaced structural accents, insets or seams to add a little more definition.
-Make corners generously rounded and soften any necessary peak or tip. The result
-should feel simple, friendly and modern—not sharp, technical or architecturally literal.
+## Scene and composition
 
-Use cobalt blue #0955EB as the dominant colour, sky blue #75B0FD and soft blue #A8CDFC
-for secondary shapes, white #FFFFFF for highlights, and warm orange-red #F74816 for only
-one small accent. Use one uniform pale blue-white #DFEBF8 background. Every shape must
-use one solid opaque fill. Create depth only with separate overlapping colour shapes.
+- Default to a 4:3 landscape canvas, composed at that ratio rather than stretched.
+- Show the full intended subject with roughly 12–15% clear space around it. Do not clip
+  heads, hands, furniture, landmarks or important accessories.
+- Prefer a simple scene or vignette with one readable action and a clear hero subject.
+- Use a thin ground line, a restrained flat ground plane, or one simple contextual shape
+  when it helps orient the scene. Do not automatically add a pill-shaped platform.
+- Keep background context subordinate. A customer-service scene does not need houses,
+  cars, trees, clouds, a map or a sun merely because they appear in a PDF example.
+- Lean into Australian architecture, landscape, plants or wildlife only when natural
+  to the brief. Australian character is contextual, not a requirement to add a cockatoo
+  or tree to every illustration.
+- Use a straight-on or gentle three-quarter scene view when suitable. A requested
+  viewpoint, such as an oblique map, can override this default without changing style.
+- No text, logos, watermarks, invented interface copy or brand lettering unless requested.
 
-Use a 4:3 landscape canvas, such as 1600 × 1200 px. Compose directly for this aspect ratio.
-Show the complete subject with 12–15% clear space on every side. Let it occupy roughly
-65–75% of the width, keeping its natural proportions. Keep the composition calm and balanced. Use a straight-on front
-view for architecture and a front or very gentle three-quarter view for objects.
+## Subject-specific guidance
 
-No text, logos or pseudo-lettering. No cropping, edge collisions, isometric view,
-photorealism, hard 3D, sharp spikes, acute corners, tiny architectural detail, window
-grids, gradients, glossy lighting, bevels, realistic shadows, dark vignette, noise,
-grain, speckles, paper texture, sandpaper effect, grey wash, haze or distressed edges.
-Do not reuse objects or motifs from earlier requests unless explicitly requested.
-```
+### Customer service and office scenes
 
-## Example subject briefs
+Use a slender faceless adult, attentive posture, a clear telephone/headset interaction
+and just enough workstation context to establish the role. Use slim desk and chair
+structures, simple rectangular monitor shapes and a few defining clothing lines.
+Avoid an oversized smiling mascot face, plush furniture, large speech bubbles or
+unrelated insurance props.
 
-### Armchair and standing lamp
+### Buildings and furniture
 
-```text
-A welcoming armchair beside a standing lamp. Build the chair from four broad rounded
-forms: an arched back, two pill-shaped arms and one plump seat cushion. Give the lamp a
-soft bell-shaped shade, one rounded stem and an oval base. Add one small orange-red pull
-cord. Keep both objects complete and comfortably spaced.
-```
+Preserve recognisable straight edges and proportions. Use broad facades, a few window
+and door divisions, and selective line definition as seen in the PDF's light-background
+adaptation. Furniture should look usable and lightweight, not like capsules or cushions.
 
-### Coffee shop
+### Vehicles and repair subjects
 
-```text
-A complete front-facing neighbourhood coffee shop. Simplify the facade into one rounded
-blue frame, one broad striped awning, two large pale-blue window panels and one soft-edged
-door. Add only a cup-and-steam pictogram, a simplified coffee machine shape and one small
-bistro-table shape. No lettering, window grids or architectural micro-detail.
-```
+Use a simplified recognisable vehicle silhouette, restrained window/wheel divisions and
+a clear working gesture when a person is present. Do not add dense mechanical detail.
+Use a small orange-red focal detail in place of the PDF's red.
 
-### Sydney Opera House
+### Landscapes and supporting objects
 
-```text
-The complete Sydney Opera House as a soft front-facing harbour elevation on a 4:3 canvas.
-Use five broad, rounded sail-shell forms with softened tips, a low rounded cobalt podium
-and one sky-blue water lozenge. Keep the sails recognisable, using separate solid white,
-sky-blue and soft-blue shapes. Add modest definition through one broad inset plane on
-each main sail, three cobalt glazing panels, a simple two-step podium edge and two short
-flat water marks. Use one small rounded orange-red entrance as the accent. Keep the
-detail groups broad and sparse, with no pane grids or fine structural lines. Depth comes
-only from overlapping solid shapes; no shading or gradients. Fit every sail, podium and
-water shape comfortably within 12–15% clear margins. No skyline, Harbour Bridge, people,
-boats, sun, moon or clouds.
-```
+Use simplified natural silhouettes, fine branch or contour lines only where useful,
+and clean solid fills. Keep context sparse and relevant to the scene.
 
-### Canberra Telstra Tower
-
-```text
-The complete Telstra Tower on Black Mountain as an isolated front-facing landmark.
-Reduce it to one tall softly tapered white tower shaft, one broad rounded cobalt
-observation-deck capsule, one sky-blue collar, one slim white antenna mast, two simple
-white dish ovals and one low cobalt hill lozenge. Add one small warm orange-red antenna
-accent. Use one solid fill per shape with no gradients, shadows or effects. Keep the full
-tower and hill comfortably inside the 4:3 canvas, sizing by height to preserve the margins. No skyline, forest detail, clouds,
-people, vehicles, logos or lettering.
-```
-
-### Sydney Harbour Bridge
-
-```text
-The complete Sydney Harbour Bridge in a straight-on harbour elevation, composed on a
-4:3 landscape canvas. Use a broad rounded cobalt steel arch with six well-spaced vertical
-supports and just a few broad diagonal braces to suggest its recognisable structure.
-Keep all joints soft. Add four squat white and soft-blue pylons in two pairs, with simple
-rounded caps and one inset opening on each front pylon. Give the low cobalt roadway one
-sky-blue deck-edge band. Ground the bridge with one sky-blue water lozenge and two short
-flat ripple marks. Include one small orange-red pylon accent. Keep every fill uniform
-and solid, with the full bridge and water shape contained in generous margins.
-No dense lattice, tiny rivets, masonry texture, cars, skyline, boats, flags or text.
-```
-
-## Negative prompt
+## Master generation prompt
 
 ```text
-cropped subject, cut-off object, edge collision, sharp spikes, acute angles, hard wedges,
-thin technical lines, window grid, individual panes, railings, architectural micro-detail,
-literal architectural rendering, isometric scene, side-view building, photorealism,
-hard 3D, bevels, glossy plastic, dramatic lighting, realistic shadows, black background,
-dark vignette, any gradient, banding, transparency, blur, glow, blend mode,
-legacy corporate navy, dark red, grey wash, haze,
-noise, grain, speckling, paper texture, sandpaper effect, clutter, text, logo, watermark
+Create one original GIO brand-guideline-style illustration of [SUBJECT AND ACTION].
+
+Follow the illustration guidance in gio-illustration.md, especially PDF page 54 for
+characters and page 53 for flat object construction and selective definition. References
+are for drawing language only, not their texture, old colours, typography, props or page
+layouts. Ignore all grain and speckling visible in the PDF or previous samples.
+
+Use flat editorial vector-like shapes, lean simplified silhouettes, a mix of straight
+edges and natural curves, and sparse defining lines. Avoid the former inflated,
+pill-shaped Marshmallow style. Keep objects believable and the action immediately clear.
+
+For people: relatively small featureless heads, elongated slender adult limbs, simple
+hair silhouettes, natural working posture, restrained clothing panels and small hands
+and feet. Faces are completely blank: no eyes, eyebrows, nose, mouth or expressions.
+Convey warmth and attentiveness through posture and gesture, not a smile.
+
+Use only cobalt #0955EB, sky blue #75B0FD, soft blue #A8CDFC, pale blue-white #DFEBF8,
+white #FFFFFF and a small orange-red #F74816 accent. Use the pale blue-white background
+unless the brief requests another approved treatment. Recolour reference navy/red/grey
+into this palette. Each base shape is a uniform opaque fill.
+
+Use pure clean shapes and uniform opaque solid fills across every surface and the
+background. NO grain, noise, speckles, stippling, scattered flecks, texture, paper effect
+or sandpaper filter, even subtly or on selected shapes. No grey wash, gradients,
+transparency, glossy lighting, shadows, bevels or photorealism.
+
+Use a 4:3 landscape canvas with generous uncropped margins. One clear hero action and
+only essential supporting context. No automatic clouds, birds, trees, map, sun, moon,
+logos, text, page furniture or carryover props from previous illustrations.
 ```
+
+## Sample subject brief — customer service representative answering the phone
+
+```text
+One professional customer service representative seated at a simple slim desk, holding
+a telephone handset to their ear with one hand while the other rests near a keyboard.
+Use an attentive slight forward lean and a relaxed head angle. Show the full seated
+figure, chair, feet, desk and a simple desktop monitor. A small phone base on the desk
+can connect to the handset through one restrained cord.
+
+Make the person elongated and faceless, with a small blank white head, a simple cobalt
+hair silhouette, a sky-blue collared shirt, cobalt trousers and modest shoes. Use the
+orange-red handset as the focal accent. Keep the desk light, with selective blue edge
+definition and slim straight legs. Use pure solid fills on the clothing, chair, monitor,
+desk and background. No grain, speckling or other texture anywhere.
+No other people, signage, speech bubbles, office decor or unrelated props.
+```
+
+## Current project examples
+
+These examples show the current flat editorial direction with the retained palette and
+clean solid finish. They are project examples, not a claim of final brand-team approval.
+The previews below are rendered from the linked editable SVGs, so their colours and
+surfaces follow the written rules exactly. Older generated PNGs may have subtle tonal
+variation; the written colour values and native SVGs remain the production reference.
+
+### Customer service representative answering the phone
+
+![Faceless customer service representative at a slim desk, using an orange handset](gio-illustrations/assets/gio-customer-service-phone-clean-svg-preview.png)
+
+[Editable SVG](gio-illustrations/assets/gio-customer-service-phone-clean.svg).
+Use the elongated proportions, restrained desk construction and featureless head.
+
+### Mechanic
+
+![Faceless standing mechanic holding a spanner and toolbox](gio-illustrations/assets/gio-mechanic-brand-guidelines-svg-preview.png)
+
+[Editable SVG](gio-illustrations/assets/gio-mechanic-brand-guidelines.svg).
+Use the lean silhouette, sparse clothing details and small orange toolbox latch.
+
+### Customer choosing between three floating options
+
+![Long-haired seated customer gesturing toward three independent floating option cards](gio-illustrations/assets/gio-customer-choice-long-hair-svg-preview.png)
+
+[Editable SVG](gio-illustrations/assets/gio-customer-choice-long-hair.svg).
+The three cards are independent and unselected, with no enclosing blue panel.
+The small orange accent sits on the customer's cuff, not on a selection badge.
+
+### Control panel — floating sliders
+
+![Front-facing phone with two horizontal borderless slider panels and one orange thumb](gio-illustrations/assets/gio-control-panel-sliders-svg-preview.png)
+
+[Editable SVG](gio-illustrations/assets/gio-control-panel-sliders.svg).
+This example has no person or toggles. Two level, parallel panels float in front of the
+phone; do not fan them or add bright blue panel outlines, shadows or glow.
+
+### Earlier samples
+
+Older Marshmallow examples remain available with the archived guide. The earlier
+textured phone sample is superseded by the clean example above. Do not copy grain,
+facial features or inflated construction from superseded work.
+
+## SVG and animation preparation
+
+- Rebuild accepted art with editable paths and simple shapes; do not embed a raster in
+  an SVG and call it a vector conversion.
+- Use as few anchors as necessary for smooth, faithful curves and clear straight edges.
+- Separate background, context, furniture, person, hair/head, torso, arms/hands,
+  legs/feet, phone and cord into meaningfully named groups when present.
+- Use opaque solid fills with no grain layers, texture patterns or raster effects.
+- If motion is requested, follow PDF page 55: smooth, restrained movement with believable
+  timing and weight. No exaggerated bounces, rubbery limbs or distracting whip motions.
+- Named layers help editing but are not a promise of a tested animation rig.
 
 ## Quality checklist
 
-- [ ] The subject is recognisable from its broad silhouette.
-- [ ] The design uses only a few large, rounded forms.
-- [ ] Four to six purposeful detail groups add definition without dense or tiny decoration.
-- [ ] The canvas is 4:3 landscape unless another ratio was explicitly requested; nothing is stretched to fit.
-- [ ] Sharp points and technical detail have been softened or removed.
-- [ ] The entire subject is visible with generous padding.
-- [ ] Cobalt `#0955EB` is dominant and orange-red `#F74816` is only a small accent.
-- [ ] The background is pale blue-white and stays light at every edge.
-- [ ] Every shape has one uniform solid fill; there are no gradients, shadows, transparency or effects.
-- [ ] The construction can be recreated with basic Figma vector shapes.
-- [ ] There is no noise, texture, grey wash, window grid or micro-detail.
-- [ ] There is no accidental text, logo, watermark or reused object.
+- [ ] The result follows the PDF's illustration language, not the old Marshmallow examples.
+- [ ] The exact retained palette is specified; no legacy PDF colours or annotation colours.
+- [ ] The silhouette and action read clearly at a small size.
+- [ ] People have elongated limbs, a small head and a natural working posture.
+- [ ] Faces are completely featureless; emotion comes from posture and gesture.
+- [ ] Shapes mix clear straight edges with natural curves; no uniformly inflated capsules.
+- [ ] Selective lines add definition without dense outlines or micro-detail.
+- [ ] Every surface and the background use pure, uniform, opaque solid fills.
+- [ ] There is no grain, noise, speckling, stippling, paper texture or distressed finish.
+- [ ] There is no gradient, transparency, glossy 3D finish or grey haze.
+- [ ] The complete subject fits the 4:3 canvas with comfortable clear margins.
+- [ ] Context is relevant; no repeated unrelated motifs or accidental lettering.
+- [ ] A generated sample is labelled as a sample until the user or brand team approves it.

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1448" height="1086" viewBox="0 0 1448 1086" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">GIO customer considering three choices — long hair</title>
+  <desc id="description">A faceless customer with long cobalt hair sits on a slim chair and gestures toward three independent, unselected option cards. Native editable vector shapes with smooth sparse curves and six solid GIO colours. No embedded raster, gradients, grain or filters. Named groups separate the cards, chair and character parts. Remove Background for transparency. No animation is applied.</desc>
+
+  <g id="background" inkscape:groupmode="layer" inkscape:label="Background — removable">
+    <rect id="background-fill" width="1448" height="1086" fill="#DFEBF8"/>
+  </g>
+
+  <g id="options" inkscape:groupmode="layer" inkscape:label="Choices — three independent cards">
+    <g id="option-circle" inkscape:label="Option 1 — circle, unselected">
+      <path id="option-circle-card" fill="#FFFFFF" d="M705 222 L816 209 C826 207 831 213 831 224 L831 486 C831 496 826 501 816 501 L706 497 C696 497 691 491 691 481 L691 239 C691 229 696 223 705 222 Z"/>
+      <ellipse id="option-circle-symbol" cx="758.5" cy="299.8" rx="32.8" ry="40.3" fill="#0955EB"/>
+      <g id="option-circle-content" stroke="#75B0FD" stroke-width="15" stroke-linecap="round">
+        <path id="option-circle-line-1" d="M724 379 L795 377"/>
+        <path id="option-circle-line-2" d="M724 409 L795 407.5"/>
+      </g>
+    </g>
+    <g id="option-diamond" inkscape:label="Option 2 — diamond, unselected">
+      <path id="option-diamond-card" fill="#FFFFFF" d="M868 202 L1000 186 C1011 184 1017 191 1017 203 L1017 490 C1017 501 1012 506 1002 506 L867 502 C857 502 852 497 852 487 L852 220 C852 209 858 203 868 202 Z"/>
+      <path id="option-diamond-symbol" fill="#0955EB" d="M929.5 237.5 L975 284.5 L929.5 337.5 L886.5 291 Z"/>
+      <g id="option-diamond-content" stroke="#75B0FD" stroke-width="16" stroke-linecap="round">
+        <path id="option-diamond-line-1" d="M889 374 L974 371.5"/>
+        <path id="option-diamond-line-2" d="M889 406.5 L974 405"/>
+      </g>
+    </g>
+    <g id="option-square" inkscape:label="Option 3 — square, unselected">
+      <path id="option-square-card" fill="#FFFFFF" d="M1057 180 L1218 159 C1231 157 1238 164 1238 178 L1238 497 C1238 509 1232 515 1221 515 L1055 508 C1044 508 1039 502 1039 491 L1039 199 C1039 189 1046 181 1057 180 Z"/>
+      <path id="option-square-symbol" fill="#0955EB" d="M1093 233.5 L1175 225.5 L1175 316 L1093 320.5 Z"/>
+      <g id="option-square-content" stroke="#75B0FD" stroke-width="18" stroke-linecap="round">
+        <path id="option-square-line-1" d="M1084 368.5 L1187 365.5"/>
+        <path id="option-square-line-2" d="M1084 404 L1187 402.5"/>
+      </g>
+    </g>
+  </g>
+
+  <g id="chair" inkscape:groupmode="layer" inkscape:label="Chair">
+    <g id="chair-legs" fill="#75B0FD" inkscape:label="Chair — legs">
+      <path id="chair-leg-left" d="M228 735 L243 740 L180 983 Q178 991 173 989 Q168 988 170 981 Z"/>
+      <path id="chair-leg-rear" d="M313 739 L328 740 L297 963 Q296 968 291 967 Q287 967 288 961 Z"/>
+      <path id="chair-leg-right" d="M421 737 L438 737 L466 989 Q467 995 462 995 Q457 996 456 990 Z"/>
+    </g>
+    <path id="chair-back-and-seat" fill="#A8CDFC" d="M170 508 C188 497 226 498 243 509 C250 514 253 523 257 537 L299 680 C304 699 317 713 335 716 L461 717 C472 717 478 723 474 731 C470 739 451 745 434 747 L246 746 C226 746 214 735 209 716 L164 522 C162 514 164 511 170 508 Z"/>
+    <path id="chair-frame" stroke="#75B0FD" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" d="M170.5 517.5 L215 714 C219 731 230 739 247 739 L435 738.5"/>
+  </g>
+
+  <g id="customer" inkscape:groupmode="layer" inkscape:label="Customer">
+    <g id="hair-back" inkscape:label="Hair — long silhouette">
+      <path id="long-hair-silhouette" fill="#0955EB" d="M301 529 C272 524 258 498 271 476 C242 448 262 404 292 375 C330 339 352 312 373 267 C391 228 420 210 450 212 C480 212 511 226 521 247 C528 261 522 273 513 280 L508 253 C499 276 480 290 455 298 C440 303 438 323 438 350 C438 376 434 381 417 379 L397 378 C354 385 332 417 317 468 Z"/>
+      <path id="hair-nape" fill="#0955EB" d="M450 350 L487 350 L484 371 C483 383 475 389 460 384 L449 379 Z"/>
+    </g>
+
+    <g id="far-leg-and-foot" inkscape:label="Far leg and foot">
+      <path id="far-ankle-and-foot" fill="#FFFFFF" d="M651 889 L702 885 C708 901 708 918 720 930 C733 942 753 951 773 958 L785 974 L675 977 L666 949 C675 933 667 916 660 902 Z"/>
+      <path id="far-shoe" fill="#0955EB" d="M668 943 C685 954 705 960 729 963 C744 965 757 964 767 956 C784 962 803 966 810 973 C815 978 814 982 805 984 C776 992 708 984 666 983 C662 972 663 957 668 943 Z"/>
+      <path id="far-trouser-leg" fill="#0955EB" d="M455 624 C502 624 564 624 606 633 C634 638 643 650 651 675 C669 731 681 800 707 893 L644 905 C620 846 595 784 581 734 L536 690 L457 685 Z"/>
+    </g>
+
+    <g id="near-leg-and-foot" inkscape:label="Near leg and foot">
+      <path id="near-ankle-and-foot" fill="#FFFFFF" d="M491 892 L536 894 C532 912 528 928 531 938 C541 950 557 960 580 971 L584 984 L480 978 L479 948 C486 931 490 914 491 892 Z"/>
+      <path id="near-shoe" fill="#0955EB" d="M480 947 C495 960 517 970 540 973 C555 975 567 975 575 969 C590 976 609 981 615 987 C621 993 616 997 604 998 C562 1001 514 992 474 989 C470 975 473 959 480 947 Z"/>
+      <path id="near-trouser-leg-and-lap" fill="#0955EB" d="M293 590 C279 619 266 646 265 673 C263 704 278 728 307 728 L509 717 C490 768 488 829 487 902 L540 904 C557 853 571 797 583 741 C591 708 597 678 575 660 C559 647 530 642 500 642 L350 627 L324 580 Z"/>
+      <path id="near-knee-seam" stroke="#75B0FD" stroke-width="1.8" stroke-linecap="round" d="M575 660 C597 678 591 708 583 741"/>
+    </g>
+
+    <g id="pointing-arm" inkscape:label="Pointing arm">
+      <path id="pointing-sleeve" fill="#75B0FD" d="M450 394 C479 417 532 453 610 495 L741 477 C745 488 747 500 747 513 L623 546 C613 549 607 549 597 546 C553 533 510 515 469 492 L447 430 Z"/>
+      <g id="pointing-hand" inkscape:label="Pointing hand">
+        <path id="pointing-hand-silhouette" fill="#FFFFFF" d="M741 478 L769 474 C785 472 799 460 815 454 L864 439 C870 437 873 438 871 442 C869 446 860 448 854 451 L833 461 C844 463 850 467 847 474 L843 480 C848 481 847 486 842 488 L837 494 C834 499 829 500 824 497 L809 497 C799 497 794 499 784 498 C774 498 761 505 746 508 C746 497 744 486 741 478 Z"/>
+        <g id="pointing-finger-definition" stroke="#A8CDFC" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">
+          <path id="index-finger-edge" d="M742 478 L769 474 C785 472 799 460 815 454 L864 439 C870 437 873 438 871 442 C869 446 860 448 854 451 L820 471"/>
+          <path id="folded-finger-upper" d="M833 461 C844 463 850 467 847 474 L843 480 L820 472 C814 476 808 482 800 488"/>
+          <path id="folded-finger-inner" d="M827 466 C834 468 839 470 836 474"/>
+          <path id="folded-finger-lower" d="M811 483 C822 483 830 488 842 485 C838 492 835 498 830 498 C825 498 818 493 818 490 C818 487 821 485 824 485"/>
+        </g>
+      </g>
+    </g>
+
+    <g id="torso" inkscape:label="Shirt — torso">
+      <path id="shirt-body" fill="#75B0FD" d="M397 378 C356 387 333 412 318 457 C306 492 296 542 285 583 C283 589 285 591 293 592 L325 598 L354 626 L421 599 C433 569 442 547 459 527 C471 514 476 502 474 480 L467 413 L450 397 C442 429 426 418 397 378 Z"/>
+      <path id="shirt-side-seam" stroke="#0955EB" stroke-width="1.05" stroke-linecap="round" d="M325.5 494 L325 594"/>
+    </g>
+
+    <g id="head-and-neck" inkscape:label="Head and neck — featureless">
+      <path id="neck" fill="#FFFFFF" d="M400 378 L417 380 C435 383 439 372 438 351 L444 341 L465 349 C458 370 450 387 451 405 C451 419 444 424 435 419 C422 411 409 394 400 378 Z"/>
+      <path id="face" fill="#FFFFFF" d="M455 298 C480 290 499 276 508 253 L513 279 C513 307 504 340 488 357 C482 364 469 361 459 357 L437 346 C438 322 439 303 455 298 Z"/>
+    </g>
+
+    <g id="resting-arm" inkscape:label="Resting arm and orange cuff">
+      <path id="resting-sleeve" fill="#75B0FD" d="M326 447 C341 414 389 416 397 453 C395 497 388 541 381 583 L475 615 L468 644 C426 641 382 638 344 628 C329 624 325 615 325 598 Z"/>
+      <path id="resting-sleeve-fold" stroke="#0955EB" stroke-width="1.2" stroke-linecap="round" d="M397 453 C395 497 388 541 381 583"/>
+      <path id="resting-hand" fill="#FFFFFF" d="M483 619 C498 623 516 621 533 622 C548 624 556 632 564 642 L575 657 C578 662 572 662 568 659 C565 663 561 660 557 657 C558 662 552 660 547 657 L529 648 C515 647 502 648 493 645 L478 643 Z"/>
+      <g id="resting-hand-fingers" stroke="#A8CDFC" stroke-width="1.1" stroke-linecap="round">
+        <path id="resting-finger-1" d="M546 630 C557 637 564 648 570 658"/>
+        <path id="resting-finger-2" d="M544 637 C553 642 560 651 565 659"/>
+        <path id="resting-finger-3" d="M535 641 C544 644 551 651 557 657"/>
+      </g>
+      <path id="orange-cuff" fill="#F74816" d="M475 614 L484.5 616.5 L478 644 L467.5 643.5 Z"/>
+    </g>
+  </g>
+</svg>
